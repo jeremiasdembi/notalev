@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'title' => 'AdminLTE 3',
+    'title' => 'NOTALEV 1.0',
     'title_prefix' => '',
     'title_postfix' => '',
 
@@ -45,7 +45,7 @@ return [
     |
     */
 
-    'logo' => '<b>Admin</b>LTE',
+    'logo' => '<b>NOTALEV</b> 1.0',
     'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
@@ -65,11 +65,11 @@ return [
     */
 
     'usermenu_enabled' => true,
-    'usermenu_header' => false,
-    'usermenu_header_class' => 'bg-primary',
-    'usermenu_image' => false,
-    'usermenu_desc' => false,
-    'usermenu_profile_url' => false,
+    'usermenu_header' => true,
+    'usermenu_header_class' => 'bg-secondary',
+    'usermenu_image' => true,
+    'usermenu_desc' => true,
+    'usermenu_profile_url' => true,
 
     /*
     |--------------------------------------------------------------------------
@@ -85,7 +85,7 @@ return [
 
     'layout_topnav' => null,
     'layout_boxed' => null,
-    'layout_fixed_sidebar' => null,
+    'layout_fixed_sidebar' => true,
     'layout_fixed_navbar' => null,
     'layout_fixed_footer' => null,
 
@@ -232,87 +232,135 @@ return [
 
     'menu' => [
         [
-            'text' => 'search',
-            'search' => true,
-            'topnav' => true,
+            'text' => 'Pagina Inicial',
+            'url'  => 'admin/home',
+            'icon' => 'fas fa-home',
+            /*'can'  => 'manage-blog',*/
         ],
         [
-            'text' => 'blog',
-            'url'  => 'admin/blog',
-            'can'  => 'manage-blog',
-        ],
-        [
-            'text'        => 'pages',
-            'url'         => 'admin/pages',
-            'icon'        => 'far fa-fw fa-file',
-            'label'       => 4,
-            'label_color' => 'success',
-        ],
-        ['header' => 'account_settings'],
-        [
-            'text' => 'profile',
-            'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-user',
-        ],
-        [
-            'text' => 'change_password',
-            'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-lock',
-        ],
-        [
-            'text'    => 'multilevel',
-            'icon'    => 'fas fa-fw fa-share',
+            'text'        => 'Parametrização',
+            'url'         => 'admin/parametrizacao',
+            'icon'        => 'fas fa-sliders-h',
             'submenu' => [
-                [
-                    'text' => 'level_one',
-                    'url'  => '#',
-                ],
-                [
-                    'text'    => 'level_one',
-                    'url'     => '#',
-                    'submenu' => [
                         [
-                            'text' => 'level_two',
+                            'text' => 'Perfil',
                             'url'  => '#',
+                            'icon' => 'fas fa-user-cog',
                         ],
                         [
-                            'text'    => 'level_two',
-                            'url'     => '#',
-                            'submenu' => [
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                            ],
+                            'text' => 'Utilizador',
+                            'url'  => '#',
+                            'icon' => 'fas fa-user-plus',
+                        ],
+                        [
+                            'text' => 'Taxa',
+                            'url'  => '#',
+                            'icon' => 'fas fa-percent',
+                        ],
+                        [
+                            'text' => 'Tipo de operação',
+                            'url'  => '#',
+                            'icon' => 'fas fa-hammer',
+                        ],
+                        [
+                            'text' => 'Desconto',
+                            'url'  => '#',
+                            'icon' => 'fas fa-tag',
+                        ],
+                        [
+                            'text' => 'Serviço',
+                            'url'  => '#',
+                            'icon' => 'fas fa-compress-arrows-alt',
                         ],
                     ],
-                ],
-                [
-                    'text' => 'level_one',
-                    'url'  => '#',
-                ],
-            ],
         ],
-        ['header' => 'labels'],
+        ['header' => 'Gestão de clientes'],
         [
-            'text'       => 'important',
-            'icon_color' => 'red',
-            'url'        => '#',
+            'text' => 'Conta',
+            'url'  => 'admin/settings',
+            'icon' => 'fas fa-fw fa-user',
+             'submenu' => [
+                        [
+                            'text' => 'Gestão de conta',
+                            'url'  => '#',
+                            'icon' => 'fas fa-users',
+                        ],
+                        [
+                            'text' => 'conversão de moeda',
+                            'url'  => '#',
+                            'icon' => 'fas fa-coins',
+                        ],
+                    ],
         ],
         [
-            'text'       => 'warning',
-            'icon_color' => 'yellow',
-            'url'        => '#',
+            'text' => 'Subconta',
+            'url'  => 'admin/settings',
+            'icon' => 'fas fa-user-friends',
+             'submenu' => [
+                        [
+                            'text' => 'Gestão de subconta',
+                            'url'  => '#',
+                            'icon' => 'fas fa-users',
+                        ],
+                        [
+                            'text' => 'Retirar e adicionar moeda',
+                            'url'  => '#',
+                            'icon' => 'fas fa-hand-holding-usd',
+                        ],
+                    ],
         ],
         [
-            'text'       => 'information',
-            'icon_color' => 'cyan',
-            'url'        => '#',
+            'text' => 'Transferência',
+            'url'  => 'admin/settings',
+            'icon' => 'fas fa-exchange-alt',
         ],
+        ['header'  => 'Operações de caixa'],
+        [
+            'text' => 'Validar operações',
+            'url'  => 'admin/settings',
+            'icon' => 'fas fa-check-double',
+        ],
+        ['header'  => 'Histórico de transação'],
+        [
+            'text' => 'Venda de moeda',
+            'url'  => 'admin/settings',
+            'icon' => 'fas fa-history',
+        ],
+        [
+            'text' => 'Transferência',
+            'url'  => 'admin/settings',
+            'icon' => 'fas fa-history',
+        ],
+        ['header'  => 'Movimentos Internos'],
+        [
+            'text' => 'Transação',
+            'url'  => 'admin/settings',
+            'icon' => 'fas fa-sync-alt',
+        ],
+        ['header'  => 'Rede binária'],
+        [
+            'text' => 'Ver associados',
+            'url'  => 'admin/settings',
+            'icon' => 'fas fa-link',
+        ],
+        ['header'  => 'Base de dados'],
+        [
+            'text' => 'Alterar tabela',
+            'url'  => 'admin/settings',
+            'icon' => 'fas fa-table',
+        ],
+        [
+            'text' => 'Alterar base de dados',
+            'url'  => 'admin/settings',
+            'icon' => 'fas fa-database',
+        ],
+        ['header'  => 'Relatório'],
+        [
+            'text' => 'Reports',
+            'url'  => 'admin/settings',
+            'icon' => 'fas fa-chart-line',
+        ],
+        
     ],
 
     /*
