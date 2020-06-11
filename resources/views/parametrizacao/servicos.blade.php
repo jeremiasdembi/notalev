@@ -22,26 +22,29 @@
                             <button type="button" class="btn btn-block btn-primary radius">Salvar</button>
                         </div>
                     </div>
-                    <div class="card-body">
-                      <table class="table table-bordered">
-                        <thead>                  
-                          <tr>
-                            <th>Nome da Entidade</th>
-                            <th>Remover</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                           <tr>
-                            <td>UNITEL</td>
-                            <td><a href="#" class="linkTableRemover">Remover</a></td>
-                          </tr>
-                          <tr>
-                            <td>ZAP</td>
-                            <td><a href="#" class="linkTableRemover">Remover</a></td>
-                          </tr>
-                          <tr>
-                        </tbody>
-                      </table>
+                    <div class="card-body p-0">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Entidade</th>
+                                    <th>Remover</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>UNITEL</td>
+                                    <td><a href="#" class="linkTableRemover">Remover</a></td>
+                                </tr>
+                                <tr>
+                                    <td>MOVICEL</td>
+                                    <td><a href="#" class="linkTableRemover">Remover</a></td>
+                                </tr>
+                                <tr>
+                                    <td>ZAP</td>
+                                    <td><a href="#" class="linkTableRemover">Remover</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                     <div class="row">
                         <br><br>
@@ -103,8 +106,6 @@
                         </table>
                     </div>
                     <br><br>
-
-
                 </div>
                 <!-- /.card-header -->
 
