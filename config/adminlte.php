@@ -275,7 +275,7 @@ return [
                         ],
                         [
                             'text' => 'Serviço',
-                            'url'  => '#',
+                            'url'  => 'parametrizacao/servicos',
                             'icon' => 'fas fa-compress-arrows-alt',
                         ],
                     ],
