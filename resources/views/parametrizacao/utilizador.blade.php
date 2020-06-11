@@ -22,7 +22,7 @@
                         <input type="text" class="form-control" placeholder="Nome utlizador">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="email">
+                        <input type="e-mail" class="form-control" placeholder="email">
                     </div>
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="senha">
@@ -34,11 +34,11 @@
                         <input type="text" class="form-control" placeholder="Número de conta Notalev">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Número de identificação ppessoal">
+                        <input type="text" class="form-control" placeholder="Número de identificação pessoal">
                     </div>
                     
                     <div class="row">
-                        <div class="col-sm-8">
+                        <div class="col-sm-12">
                             <div class="form-group">
                                 <select class="form-control">
                                     <option>Selecionar perfil</option>
@@ -50,42 +50,7 @@
                         </div>
                     </div>
 
-                    <div class="card-body p-0">
-                        <table class="table table-striped">
-                            <thead>
-                                <tr>
-                                    <th style="width: 10px">#</th>
-                                    <th>Funcionalidade</th>
-                                    <th>Acção</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1.</td>
-                                    <td>Update software</td>
-                                    <td><a href="#" class="linkTableRemover">Remover</a></td>
-                                </tr>
-                                <tr>
-                                    <td>2.</td>
-                                    <td>Clean database</td>
-                                    <td><a href="#" class="linkTableRemover">Remover</a></td>
-                                </tr>
-                                <tr>
-                                    <td>3.</td>
-                                    <td>Cron job running</td>
-                                    <td><a href="#" class="linkTableRemover">Remover</a></td>
-                                </tr>
-                                <tr>
-                                    <td>4.</td>
-                                    <td>Fix and squish bugs</td>
-                                    <td><a href="#" class="linkTableRemover">Remover</a></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="row">
-                        <br><br>
-                    </div>
+                    <br> <br>
                     <div class="row">
                         <div class="col-sm-3">
                             <div class="form-group">
@@ -96,6 +61,7 @@
                             <div class="form-group">
                                <button type="button" class="btn btn-block btn-primary radius">Salvar</button>
                             </div>
+
                         </div>
                         <div class="col-sm-3">
                         <div class="form-group">
@@ -122,10 +88,10 @@
             <!-- DIRECT CHAT -->
             <div class="card">
                 <div class="card-header">
-                    <h3 class="card-title">Actualizar Perfil</h3>
+                    <h3 class="card-title">Actualizar utilizador</h3>
                     <br><br>
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Pesquisar Perfil">
+                        <input type="text" class="form-control" placeholder="Pesquisar Utilizador">
                         <div class="input-group-append">
                             <button class="btn btn-secondary" type="button">
                                 <i class="fa fa-search"></i>
@@ -136,46 +102,55 @@
                         <table class="table table-striped">
                             <thead>
                                 <tr>
-                                    <th style="width: 10px">#</th>
-                                    <th>Funcionalidade</th>
-                                    <th>Acção</th>
+                                    <th style="width: 30px">#</th>
+                                    <th>Codigo Utilizador</th>
+                                    <th>Utilizador</th>
+                                    <th>Selecionar</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>1.</td>
-                                    <td>Update software</td>
-                                    <td><a href="#">Seleccionar</a></td>
+                                    <td> </td>
+                                    <td>001</td>
+                                    <td>Delton Agostinho </td>
+                                    <td><a href="#">Selecionar</a></td>
                                 </tr>
                                 <tr>
-                                    <td>2.</td>
-                                    <td>Clean database</td>
-                                    <td><a href="#">Seleccionar</a></td>
+                                    <td> </td>
+                                    <td>002</td>
+                                    <td>Hugo Paulo </td>
+                                    <td><a href="#">Selecionar</a></td>
                                 </tr>
                                 <tr>
-                                    <td>3.</td>
-                                    <td>Cron job running</td>
-                                    <td><a href="#">Seleccionar</a></td>
+                                    <td> </td>
+                                    <td>003</td>
+                                    <td> Milagres Baptista</td>
+                                    <td><a href="#">Selecionar</a></td>
                                 </tr>
                                 <tr>
-                                    <td>4.</td>
-                                    <td>Fix and squish bugs</td>
-                                    <td><a href="#">Seleccionar</a></td>               
+                                    <td> </td>
+                                    <td>004</td>
+                                    <td> Joydi Nunes </td>
+                                    <td><a href="#">Selecionar</a></td>               
                                 </tr>
                                 <tr>
-                                    <td>4.</td>
-                                    <td>Fix and squish bugs</td>
-                                    <td><a href="#">Seleccionar</a></td>               
+                                    <td> </td>
+                                    <td>005</td>
+                                    <td> Fernando Raimundo</td> 
+                                    <td><a href="#">Selecionar</a></td>
+                                                  
                                 </tr>
                                 <tr>
-                                    <td>4.</td>
-                                    <td>Fix and squish bugs</td>
-                                    <td><a href="#">Seleccionar</a></td>               
+                                    <td> </td>
+                                    <td>006</td>
+                                    <td>Jeremias Dembi</td>
+                                    <td><a href="#"> Selecionar</a></td>  
+                                                 
                                 </tr>
                             </tbody>
                         </table>
                     </div>
-                    <br><br><br><br><br><br><br><p>  </p>
+                    <br><br><br><br><br><br><br>
 
 
                 </div>
