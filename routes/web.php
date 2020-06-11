@@ -20,3 +20,5 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::view('/parametrizacao/perfil', 'parametrizacao/perfil')->name('perfil');
+Route::view('/parametrizacao/utilizador', 'parametrizacao/utilizador')->name('utilizador');

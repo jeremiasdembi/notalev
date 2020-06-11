@@ -71,6 +71,7 @@ return [
     'usermenu_desc' => true,
     'usermenu_profile_url' => true,
 
+
     /*
     |--------------------------------------------------------------------------
     | Layout
@@ -232,8 +233,13 @@ return [
 
     'menu' => [
         [
+            'text' => 'search',
+            'search' => true,
+            'topnav' => true,
+        ],
+        [
             'text' => 'Pagina Inicial',
-            'url'  => 'admin/home',
+            'url'  => '/home',
             'icon' => 'fas fa-home',
             /*'can'  => 'manage-blog',*/
         ],
@@ -244,12 +250,12 @@ return [
             'submenu' => [
                         [
                             'text' => 'Perfil',
-                            'url'  => '#',
+                            'url'  => 'parametrizacao/perfil',
                             'icon' => 'fas fa-user-cog',
                         ],
                         [
                             'text' => 'Utilizador',
-                            'url'  => '#',
+                            'url'  => 'parametrizacao/utilizador',
                             'icon' => 'fas fa-user-plus',
                         ],
                         [
