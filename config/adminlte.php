@@ -260,7 +260,7 @@ return [
                         ],
                         [
                             'text' => 'Taxa',
-                            'url'  => '#',
+                            'url'  => 'parametrizacao/taxa',
                             'icon' => 'fas fa-percent',
                         ],
                         [
