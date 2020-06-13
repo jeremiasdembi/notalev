@@ -27,3 +27,4 @@ Route::view('/parametrizacao/servicos', 'parametrizacao/servicos')->name('servic
 Route::view('/gestaocliente/gestaosubconta', 'gestaocliente/gestao_subconta')->name('gestao_subconta');
 Route::view('/gestaocliente/transferencia', 'gestaocliente/transferencia')->name('transferencia');
 Route::view('/gestaocliente/gestaoconta', 'gestaocliente/gestao_conta')->name('gestao_conta');
+Route::view('/gestaocliente/conversaomoeda', 'gestaocliente/conversao_moeda')->name('conversaomoeda');

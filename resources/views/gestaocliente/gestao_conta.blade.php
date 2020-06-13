@@ -25,7 +25,12 @@
                         </div>
                         <div class="row">
                             <div class="col-md-6 form-group">
-                                <input type="tel" class="form-control" placeholder=" Telefone">    
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text"><i class="fas fa-phone"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" data-mask="(999) 999 999 999" maxlength="12" placeholder="(999) 999 999 999" autocomplete="off">
+                                </div>    
                             </div>
                             <div class="col-md-6 form-group">
                                 <input type="email" class="form-control" placeholder=" E-mail">    
