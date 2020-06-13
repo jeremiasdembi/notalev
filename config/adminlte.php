@@ -283,7 +283,7 @@ return [
         ['header' => 'Gestão de clientes'],
         [
             'text' => 'Conta',
-            'url'  => 'admin/settings',
+            'url'  => 'admin/gestaocliente',
             'icon' => 'fas fa-fw fa-user',
              'submenu' => [
                         [
@@ -300,12 +300,12 @@ return [
         ],
         [
             'text' => 'Subconta',
-            'url'  => 'admin/settings',
+            'url'  => 'admin/gestaocliente',
             'icon' => 'fas fa-user-friends',
              'submenu' => [
                         [
                             'text' => 'Gestão de subconta',
-                            'url'  => '#',
+                            'url'  => 'gestaocliente/gestao_subconta',
                             'icon' => 'fas fa-users',
                         ],
                         [
@@ -317,7 +317,7 @@ return [
         ],
         [
             'text' => 'Transferência',
-            'url'  => 'admin/settings',
+            'url'  => 'settings/transferencia',
             'icon' => 'fas fa-exchange-alt',
         ],
         ['header'  => 'Operações de caixa'],
