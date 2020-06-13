@@ -30,6 +30,7 @@
                 @include('adminlte::partials.navbar.menu-item-dropdown-user-menu')
 
             @else
+                @include('adminlte::partials.navbar.menu-item-dropdown-notification-menu')
                 @include('adminlte::partials.navbar.menu-item-logout-link')
             @endif
         @endif

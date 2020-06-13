@@ -22,7 +22,7 @@
                         <input type="text" class="form-control" placeholder="Nome utlizador">
                     </div>
                     <div class="form-group">
-                        <input type="e-mail" class="form-control" placeholder="email">
+                        <input type="email" class="form-control" placeholder="email">
                     </div>
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="senha">
@@ -91,7 +91,7 @@
                     <h3 class="card-title">Actualizar utilizador</h3>
                     <br><br>
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Pesquisar Utilizador">
+                        <input type="search" class="form-control" placeholder="Selecionar Utilizador">
                         <div class="input-group-append">
                             <button class="btn btn-secondary" type="button">
                                 <i class="fa fa-search"></i>

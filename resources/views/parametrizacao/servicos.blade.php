@@ -70,7 +70,7 @@
                     <h3 class="card-title">Produtos e Serviços</h3>
                     <br><br>
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Pesquisar Produtos e Serviços">
+                        <input type="search" class="form-control" placeholder="Pesquisar Produtos e Serviços">
                         <div class="input-group-append">
                             <button class="btn btn-secondary" type="button">
                                 <i class="fa fa-search"></i>

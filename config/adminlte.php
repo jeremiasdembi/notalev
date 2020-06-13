@@ -245,7 +245,6 @@ return [
         ],
         [
             'text'        => 'Parametrização',
-            'url'         => 'admin/parametrizacao',
             'icon'        => 'fas fa-sliders-h',
             'submenu' => [
                         [
@@ -283,29 +282,27 @@ return [
         ['header' => 'Gestão de clientes'],
         [
             'text' => 'Conta',
-            'url'  => 'admin/gestaocliente',
             'icon' => 'fas fa-fw fa-user',
              'submenu' => [
                         [
                             'text' => 'Gestão de conta',
-                            'url'  => '#',
+                            'url'  => 'gestaocliente/gestaoconta',
                             'icon' => 'fas fa-users',
                         ],
                         [
                             'text' => 'conversão de moeda',
-                            'url'  => '#',
+                            'url'  => 'gestaocliente/conversaomoeda',
                             'icon' => 'fas fa-coins',
                         ],
                     ],
         ],
         [
             'text' => 'Subconta',
-            'url'  => 'admin/gestaocliente',
             'icon' => 'fas fa-user-friends',
              'submenu' => [
                         [
                             'text' => 'Gestão de subconta',
-                            'url'  => 'gestaocliente/gestao_subconta',
+                            'url'  => 'gestaocliente/gestaosubconta',
                             'icon' => 'fas fa-users',
                         ],
                         [

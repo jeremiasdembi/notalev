@@ -24,5 +24,6 @@ Route::view('/parametrizacao/perfil', 'parametrizacao/perfil')->name('perfil');
 Route::view('/parametrizacao/utilizador', 'parametrizacao/utilizador')->name('utilizador');
 Route::view('/parametrizacao/taxa', 'parametrizacao/taxa')->name('taxa');
 Route::view('/parametrizacao/servicos', 'parametrizacao/servicos')->name('servicos');
-Route::view('/gestaocliente/gestao_subconta', 'gestaocliente/gestao_subconta')->name('gestao_subconta');
+Route::view('/gestaocliente/gestaosubconta', 'gestaocliente/gestao_subconta')->name('gestao_subconta');
 Route::view('/gestaocliente/transferencia', 'gestaocliente/transferencia')->name('transferencia');
+Route::view('/gestaocliente/gestaoconta', 'gestaocliente/gestao_conta')->name('gestao_conta');

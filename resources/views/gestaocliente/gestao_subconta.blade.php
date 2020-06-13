@@ -15,7 +15,7 @@
                     <h3 class="card-title">Criar Subconta</h3>
                     <br><br>
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Seleccionar Conta">
+                        <input type="search" class="form-control" placeholder="Seleccionar Conta">
                         <div class="input-group-append">
                             <button class="btn btn-secondary" type="button">
                                 <i class="fa fa-search"></i>
@@ -55,7 +55,7 @@
                                 <input type="text" class="form-control" placeholder=" Nome de Subconta">    
                             </div>
                             <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder=" Telefone ">    
+                                <input type="tel" class="form-control" placeholder=" Telefone ">    
                             </div>
                         </div>
                         <div class="row">
@@ -120,7 +120,7 @@
                     <h3 class="card-title">Actualizar Subconta</h3>
                     <br><br>
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Seleccionar Conta">
+                        <input type="search" class="form-control" placeholder="Seleccionar Conta">
                         <div class="input-group-append">
                             <button class="btn btn-secondary" type="button">
                                 <i class="fa fa-search"></i>

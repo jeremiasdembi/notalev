@@ -15,7 +15,7 @@
                     <h3 class="card-title">Histórico de Transferências</h3>
                     <br><br>
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Seleccionar Conta">
+                        <input type="search" class="form-control" placeholder="Seleccionar Conta">
                         <div class="input-group-append">
                             <button class="btn btn-secondary" type="button">
                                 <i class="fa fa-search"></i>
@@ -96,7 +96,7 @@
                     <h3 class="card-title">Adicionar e Retirar NotaLev a Subconta</h3>
                     <br><br>
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Seleccionar Conta">
+                        <input type="search" class="form-control" placeholder="Seleccionar Conta">
                         <div class="input-group-append">
                             <button class="btn btn-secondary" type="button">
                                 <i class="fa fa-search"></i>

@@ -69,7 +69,7 @@
                     <h3 class="card-title">Actualizar Taxa</h3>
                     <br><br>
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Pesquisar Perfil">
+                        <input type="search" class="form-control" placeholder="Seleccionar Perfil">
                         <div class="input-group-append">
                             <button class="btn btn-secondary" type="button">
                                 <i class="fa fa-search"></i>
