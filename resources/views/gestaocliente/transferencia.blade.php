@@ -7,93 +7,11 @@
 
     <!-- Criar uma linha, para devidir em dois grupos-->
     <div class="row">
-        <!--Começa o primeiro Bloco do grupo de divisão-->
-        <div class="col-md-6">
+       <div class="col-md-12">
             <!--Começa o Criar e Atualizar Perfil-->
             <div class="card">
                 <div class="card-header">
-                    <h3 class="card-title">Histórico de Transferências</h3>
-                    <br><br>
-                    <div class="input-group">
-                        <input type="search" class="form-control" placeholder="Seleccionar Conta">
-                        <div class="input-group-append">
-                            <button class="btn btn-secondary" type="button">
-                                <i class="fa fa-search"></i>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="card-body p-0">
-                        <table class="table table-striped">
-                            <thead>
-                                <tr>
-                                    <th>Conta de Origem</th>
-                                    <th>Conta de Destino</th>
-                                    <th>Valor Transferido</th>
-                                    <th>Data e Hora</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>00975136AMB89</td>
-                                    <td><a href="#" class="">Delton</a></td>
-                                    <td>18736 Nl</td>
-                                    <td><a href="#">Seleccionar</a></td>
-                                </tr>
-                                <tr>
-                                    <td>00975136AMB89</td>
-                                    <td><a href="#" class="">Delton</a></td>
-                                    <td>18736 Nl</td>
-                                    <td><a href="#">Seleccionar</a></td>
-                                </tr>
-                                <tr>
-                                    <td>00975136AMB89</td>
-                                    <td><a href="#" class="">Delton</a></td>
-                                    <td>18736 Nl</td>
-                                    <td><a href="#">Seleccionar</a></td>
-                                </tr>
-                                <tr>
-                                    <td>00975136AMB89</td>
-                                    <td><a href="#" class="">Delton</a></td>
-                                    <td>18736 Nl</td>
-                                    <td><a href="#">Seleccionar</a></td>
-                                </tr>
-                                <tr>
-                                    <td>00975136AMB89</td>
-                                    <td><a href="#" class="">Delton</a></td>
-                                    <td>18736 Nl</td>
-                                    <td><a href="#">Seleccionar</a></td>
-                                </tr>
-                                <tr>
-                                    <td>00975136AMB89</td>
-                                    <td><a href="#" class="">Delton</a></td>
-                                    <td>18736 Nl</td>
-                                    <td><a href="#">Seleccionar</a></td>
-                                </tr>
-                                    <td>00075136AMB89</td>
-                                    <td><a href="#" class="">Delton</a></td>
-                                    <td>18736 Nl</td>
-                                    <td><a href="#">Seleccionar</a></td>
-                                </tr>
-                                    <td>00975136AMB89</td>
-                                    <td><a href="#" class="">Delton</a></td>
-                                    <td>18736 Nl</td>
-                                    <td><a href="#">Seleccionar</a></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="row">
-                        <br>
-                    </div>
-                </div>
-        </div>
-        <!--/.direct-Termina a Primeira Coluna -->
-        </div>
-        <div class="col-md-6">
-            <!--Começa o Criar e Atualizar Perfil-->
-            <div class="card">
-                <div class="card-header">
-                    <h3 class="card-title">Adicionar e Retirar NotaLev a Subconta</h3>
+                    <h3 class="card-title">Transferência</h3>
                     <br><br>
                     <div class="input-group">
                         <input type="search" class="form-control" placeholder="Seleccionar Conta">
