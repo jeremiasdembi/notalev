@@ -307,7 +307,7 @@ return [
                         ],
                         [
                             'text' => 'Retirar e adicionar moeda',
-                            'url'  => '#',
+                            'url'  => '/gestaocliente/adicionarretirarvalor',
                             'icon' => 'fas fa-hand-holding-usd',
                         ],
                     ],
