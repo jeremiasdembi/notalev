@@ -30,3 +30,7 @@ Route::view('/gestaocliente/conversaomoeda', 'gestaocliente/conversao_moeda')->n
 Route::view('/gestaocliente/adicionarretirarvalor', 'gestaocliente/adicionar_retirar_valor')->name('adicionarretirarvalor');
 Route::view('/parametrizacao/desconto', 'parametrizacao/desconto')->name('desconto');
 Route::view('/gestaocliente/transferencia', 'gestaocliente/transferencia')->name('transferencia');
+Route::view('/historicotransacao/historicotransacao', 'historicotransacao/historico_transacao')->name('historicotransacao');
+Route::view('/operacoesdecaixa/validaroperacoes', 'operacoesdecaixa/validar_operacoes')->name('validaroperacoes');
+Route::view('/operacoesdecaixa/finalizarvalidacao', 'operacoesdecaixa/finalizar_validacao_operacao')->name('finalizarvalidacao');
+Route::view('/redebinaria/verassociados', 'redebinaria/ver_associados')->name('verassociados');

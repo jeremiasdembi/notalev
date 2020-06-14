@@ -249,17 +249,17 @@ return [
             'submenu' => [
                         [
                             'text' => 'Perfil',
-                            'url'  => 'parametrizacao/perfil',
+                            'url'  => '/parametrizacao/perfil',
                             'icon' => 'fas fa-user-cog',
                         ],
                         [
                             'text' => 'Utilizador',
-                            'url'  => 'parametrizacao/utilizador',
+                            'url'  => '/parametrizacao/utilizador',
                             'icon' => 'fas fa-user-plus',
                         ],
                         [
                             'text' => 'Taxa',
-                            'url'  => 'parametrizacao/taxa',
+                            'url'  => '/parametrizacao/taxa',
                             'icon' => 'fas fa-percent',
                         ],
                         [
@@ -269,12 +269,12 @@ return [
                         ],
                         [
                             'text' => 'Desconto',
-                            'url'  => 'parametrizacao/desconto',
+                            'url'  => '/parametrizacao/desconto',
                             'icon' => 'fas fa-tag',
                         ],
                         [
                             'text' => 'Serviço',
-                            'url'  => 'parametrizacao/servicos',
+                            'url'  => '/parametrizacao/servicos',
                             'icon' => 'fas fa-compress-arrows-alt',
                         ],
                     ],
@@ -286,17 +286,17 @@ return [
              'submenu' => [
                         [
                             'text' => 'Gestão de conta',
-                            'url'  => 'gestaocliente/gestaoconta',
+                            'url'  => '/gestaocliente/gestaoconta',
                             'icon' => 'fas fa-users',
                         ],
                         [
                             'text' => 'conversão de moeda',
-                            'url'  => 'gestaocliente/conversaomoeda',
+                            'url'  => '/gestaocliente/conversaomoeda',
                             'icon' => 'fas fa-coins',
                         ],
                         [
                             'text' => 'Transferência',
-                            'url'  => 'gestaocliente/transferencia',
+                            'url'  => '/gestaocliente/transferencia',
                             'icon' => 'fas fa-exchange-alt',
                         ],
                     ],
@@ -307,7 +307,7 @@ return [
              'submenu' => [
                         [
                             'text' => 'Gestão de subconta',
-                            'url'  => 'gestaocliente/gestaosubconta',
+                            'url'  => '/gestaocliente/gestaosubconta',
                             'icon' => 'fas fa-users',
                         ],
                         [
@@ -320,18 +320,13 @@ return [
         ['header'  => 'Operações de caixa'],
         [
             'text' => 'Validar operações',
-            'url'  => 'admin/settings',
+            'url'  => '/operacoesdecaixa/validaroperacoes',
             'icon' => 'fas fa-check-double',
         ],
         ['header'  => 'Histórico de transação'],
         [
-            'text' => 'Venda de moeda',
-            'url'  => 'admin/settings',
-            'icon' => 'fas fa-history',
-        ],
-        [
-            'text' => 'Transferência',
-            'url'  => 'admin/settings',
+            'text' => 'Historico de Transação',
+            'url'  => '/historicotransacao/historicotransacao',
             'icon' => 'fas fa-history',
         ],
         ['header'  => 'Movimentos Internos'],
@@ -343,7 +338,7 @@ return [
         ['header'  => 'Rede binária'],
         [
             'text' => 'Ver associados',
-            'url'  => 'admin/settings',
+            'url'  => '/redebinaria/verassociados',
             'icon' => 'fas fa-link',
         ],
         ['header'  => 'Base de dados'],
