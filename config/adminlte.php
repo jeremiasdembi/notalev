@@ -249,32 +249,32 @@ return [
             'submenu' => [
                         [
                             'text' => 'Perfil',
-                            'url'  => 'parametrizacao/perfil',
+                            'url'  => '/parametrizacao/perfil',
                             'icon' => 'fas fa-user-cog',
                         ],
                         [
                             'text' => 'Utilizador',
-                            'url'  => 'parametrizacao/utilizador',
+                            'url'  => '/parametrizacao/utilizador',
                             'icon' => 'fas fa-user-plus',
                         ],
                         [
                             'text' => 'Taxa',
-                            'url'  => 'parametrizacao/taxa',
+                            'url'  => '/parametrizacao/taxa',
                             'icon' => 'fas fa-percent',
                         ],
                         [
                             'text' => 'Tipo de operação',
-                            'url'  => '#',
+                            'url'  => '/parametrizacao/tipooperacao',
                             'icon' => 'fas fa-hammer',
                         ],
                         [
                             'text' => 'Desconto',
-                            'url'  => 'parametrizacao/desconto',
+                            'url'  => '/parametrizacao/desconto',
                             'icon' => 'fas fa-tag',
                         ],
                         [
                             'text' => 'Serviço',
-                            'url'  => 'parametrizacao/servicos',
+                            'url'  => '/parametrizacao/servicos',
                             'icon' => 'fas fa-compress-arrows-alt',
                         ],
                     ],
@@ -286,14 +286,20 @@ return [
              'submenu' => [
                         [
                             'text' => 'Gestão de conta',
-                            'url'  => 'gestaocliente/gestaoconta',
+                            'url'  => '/gestaocliente/gestaoconta',
                             'icon' => 'fas fa-users',
                         ],
                         [
                             'text' => 'conversão de moeda',
-                            'url'  => 'gestaocliente/conversaomoeda',
+                            'url'  => '/gestaocliente/conversaomoeda',
                             'icon' => 'fas fa-coins',
                         ],
+                        [
+                            'text' => 'Transferência',
+                            'url'  => '/gestaocliente/transferencia',
+                            'icon' => 'fas fa-exchange-alt',
+                        ],
+
                     ],
         ],
         [
@@ -302,48 +308,38 @@ return [
              'submenu' => [
                         [
                             'text' => 'Gestão de subconta',
-                            'url'  => 'gestaocliente/gestaosubconta',
+                            'url'  => '/gestaocliente/gestaosubconta',
                             'icon' => 'fas fa-users',
                         ],
                         [
                             'text' => 'Retirar e adicionar moeda',
-                            'url'  => '#',
+                            'url'  => '/gestaocliente/adicionarretirarvalor',
                             'icon' => 'fas fa-hand-holding-usd',
                         ],
                     ],
-        ],
-        [
-            'text' => 'Transferência',
-            'url'  => 'settings/transferencia',
-            'icon' => 'fas fa-exchange-alt',
-        ],
+        ],        
         ['header'  => 'Operações de caixa'],
         [
             'text' => 'Validar operações',
-            'url'  => 'admin/settings',
+            'url'  => '/operacoesdecaixa/validaroperacoes',
             'icon' => 'fas fa-check-double',
         ],
         ['header'  => 'Histórico de transação'],
         [
-            'text' => 'Venda de moeda',
-            'url'  => 'admin/settings',
-            'icon' => 'fas fa-history',
-        ],
-        [
-            'text' => 'Transferência',
-            'url'  => 'admin/settings',
+            'text' => 'Historico de Transação',
+            'url'  => '/historicotransacao/historicotransacao',
             'icon' => 'fas fa-history',
         ],
         ['header'  => 'Movimentos Internos'],
         [
             'text' => 'Transação',
-            'url'  => 'admin/settings',
+            'url'  => '/movimentosinternos/transferenciainterna',
             'icon' => 'fas fa-sync-alt',
         ],
         ['header'  => 'Rede binária'],
         [
             'text' => 'Ver associados',
-            'url'  => 'admin/settings',
+            'url'  => '/redebinaria/verassociados',
             'icon' => 'fas fa-link',
         ],
         ['header'  => 'Base de dados'],
