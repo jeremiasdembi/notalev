@@ -269,7 +269,7 @@ return [
                         ],
                         [
                             'text' => 'Desconto',
-                            'url'  => '#',
+                            'url'  => 'parametrizacao/desconto',
                             'icon' => 'fas fa-tag',
                         ],
                         [
@@ -314,7 +314,7 @@ return [
         ],
         [
             'text' => 'Transferência',
-            'url'  => 'settings/transferencia',
+            'url'  => 'gestaocliente/transferencia',
             'icon' => 'fas fa-exchange-alt',
         ],
         ['header'  => 'Operações de caixa'],
