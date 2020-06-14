@@ -28,3 +28,4 @@ Route::view('/gestaocliente/gestaosubconta', 'gestaocliente/gestao_subconta')->n
 Route::view('/gestaocliente/transferencia', 'gestaocliente/transferencia')->name('transferencia');
 Route::view('/gestaocliente/gestaoconta', 'gestaocliente/gestao_conta')->name('gestao_conta');
 Route::view('/gestaocliente/conversaomoeda', 'gestaocliente/conversao_moeda')->name('conversaomoeda');
+Route::view('/gestaocliente/adicionarretirarvalor', 'gestaocliente/adicionar_retirar_valor')->name('adicionarretirarvalor');
