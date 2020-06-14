@@ -1,5 +1,5 @@
 @extends('adminlte::page')
-@section('title', 'Tipo de Operação')
+@section('title', 'Tipo de Conta')
 
 @section('content')
 <!--Conteudo da Página começa do Container-->
@@ -12,27 +12,18 @@
             <!--Começa o Criar e Atualizar Perfil-->
             <div class="card">
                 <div class="card-header">
-                    <h3 class="card-title">Cadastrar Tipo de Operação</h3>
+                    <h3 class="card-title">Cadastrar Tipo de Conta</h3>
                     <br><br>
                     <div class="card-body p-0">
                         <div class="row">
                             <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder=" Nome da Operação">    
+                                <input type="text" class="form-control" placeholder=" Tipo de Conta">    
                             </div>
                             <div class="col-md-6 form-group">
                                 <input type="tel" class="form-control" placeholder=" Descrição ">    
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="form-group col-md-12">
-                                <select class="form-control">
-                                    <option>Selecionar Tipo Taxa</option>
-                                    <option>option 2</option>
-                                    <option>option 3</option>
-                                    <option>option 4</option>
-                                </select>
-                            </div>
-                        </div>
+                        
                     </div>
                     <div class="row">
                         <br>
@@ -84,7 +75,7 @@
             <!--Começa o Criar e Atualizar Perfil-->
             <div class="card">
                 <div class="card-header">
-                    <h3 class="card-title">Consultar Tipos de Operação</h3>
+                    <h3 class="card-title">Consultar Tipos de Subconta</h3>
                     <br><br>
                     <div class="input-group">
                         <input type="search" class="form-control" placeholder="Procurar Tipo de Operação">
@@ -102,24 +93,24 @@
                         <table class="table table-striped">
                              <thead>
                                 <tr>
-                                    <th>Nome</th>
+                                    <th>#</th>
+                                    <th>Tipo de Operação</th>
                                     <th>Descrição</th>
-                                    <th>Tipo de Descrição</th>
                                     <th>Acção</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>00075136AMB89</td>
-                                    <td><a href="#" class="">Delton</a></td>
-                                    <td>18736 Nl</td>
+                                    <td>1</td>
+                                    <td><a href="#" class="">Movimento Interno</a></td>
+                                    <td>18736 Nlswkjuwh</td>
                                     <td>
                                         <a href="#">Editar </a>
                                         <a href="#" class="linkTableRemover">Remover</a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>00975136AMB89</td>
+                                    <td>2</td>
                                     <td><a href="#" class="">Delton</a></td>
                                     <td>18736 Nl</td>
                                     <td>
@@ -141,23 +132,7 @@
                         <div class="row">
                             <br>
                         </div>
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <div class="form-group">
-                                <!--Adicionamos espaço vazio, para movimentar os botões a esquerda-->
-                            </div>
-                            </div>
-                            <div class="col-sm-3">
-                                <div class="form-group">
-                                    <button type="button" class="btn btn-block btn-success radius">Atualizar</button>
-                                </div>
-                            </div>
-                            <div class="col-sm-3">
-                                <div class="form-group">
-                                    <button type="button" class="btn btn-block btn-danger radius">Eliminar</button>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
                 <!-- /.card-header -->

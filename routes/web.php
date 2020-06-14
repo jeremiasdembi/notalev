@@ -37,3 +37,4 @@ Route::view('/operacoesdecaixa/finalizarvalidacao', 'operacoesdecaixa/finalizar_
 Route::view('/redebinaria/verassociados', 'redebinaria/ver_associados')->name('verassociados');
 Route::view('/movimentosinternos/transferenciainterna', 'movimentosinternos/transferencia_interna')->name('transferenciainterna');
 Route::view('/parametrizacao/tipooperacao', 'parametrizacao/tipo_operacao')->name('tipooperacao');
+Route::view('/parametrizacao/tipoconta', 'parametrizacao/tipo_conta')->name('tipoconta');

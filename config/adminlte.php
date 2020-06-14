@@ -268,6 +268,11 @@ return [
                             'icon' => 'fas fa-hammer',
                         ],
                         [
+                            'text' => 'Tipo de Conta',
+                            'url'  => '/parametrizacao/tipoconta',
+                            'icon' => 'fas fa-money-check-alt',
+                        ],
+                        [
                             'text' => 'Desconto',
                             'url'  => '/parametrizacao/desconto',
                             'icon' => 'fas fa-tag',
