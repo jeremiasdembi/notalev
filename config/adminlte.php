@@ -294,6 +294,11 @@ return [
                             'url'  => 'gestaocliente/conversaomoeda',
                             'icon' => 'fas fa-coins',
                         ],
+                        [
+                            'text' => 'Transferência',
+                            'url'  => 'gestaocliente/transferencia',
+                            'icon' => 'fas fa-exchange-alt',
+                        ],
                     ],
         ],
         [
@@ -311,11 +316,6 @@ return [
                             'icon' => 'fas fa-hand-holding-usd',
                         ],
                     ],
-        ],
-        [
-            'text' => 'Transferência',
-            'url'  => 'gestaocliente/transferencia',
-            'icon' => 'fas fa-exchange-alt',
         ],
         ['header'  => 'Operações de caixa'],
         [

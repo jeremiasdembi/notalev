@@ -35,7 +35,7 @@
                             <div class="form-group col-md-6">
                                 <select class="form-control">
                                     <option>Tipo de Conta</option>
-                                    <option>option 2</option>
+                                    <option>option 1</option>
                                     <option>option 3</option>
                                     <option>option 4</option>
                                 </select>

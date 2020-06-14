@@ -25,8 +25,8 @@ Route::view('/parametrizacao/utilizador', 'parametrizacao/utilizador')->name('ut
 Route::view('/parametrizacao/taxa', 'parametrizacao/taxa')->name('taxa');
 Route::view('/parametrizacao/servicos', 'parametrizacao/servicos')->name('servicos');
 Route::view('/gestaocliente/gestaosubconta', 'gestaocliente/gestao_subconta')->name('gestao_subconta');
-Route::view('/gestaocliente/transferencia', 'gestaocliente/transferencia')->name('transferencia');
 Route::view('/gestaocliente/gestaoconta', 'gestaocliente/gestao_conta')->name('gestao_conta');
 Route::view('/gestaocliente/conversaomoeda', 'gestaocliente/conversao_moeda')->name('conversaomoeda');
 Route::view('/gestaocliente/adicionarretirarvalor', 'gestaocliente/adicionar_retirar_valor')->name('adicionarretirarvalor');
 Route::view('/parametrizacao/desconto', 'parametrizacao/desconto')->name('desconto');
+Route::view('/gestaocliente/transferencia', 'gestaocliente/transferencia')->name('transferencia');
