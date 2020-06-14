@@ -29,4 +29,4 @@ Route::view('/gestaocliente/gestaoconta', 'gestaocliente/gestao_conta')->name('g
 Route::view('/gestaocliente/conversaomoeda', 'gestaocliente/conversao_moeda')->name('conversaomoeda');
 Route::view('/gestaocliente/adicionarretirarvalor', 'gestaocliente/adicionar_retirar_valor')->name('adicionarretirarvalor');
 Route::view('/parametrizacao/desconto', 'parametrizacao/desconto')->name('desconto');
-Route::view('/gestaocliente/transferencia', 'gestaocliente/transferencia')->name('transferencia');
+

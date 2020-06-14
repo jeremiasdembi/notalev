@@ -294,11 +294,6 @@ return [
                             'url'  => 'gestaocliente/conversaomoeda',
                             'icon' => 'fas fa-coins',
                         ],
-                        [
-                            'text' => 'Transferência',
-                            'url'  => 'gestaocliente/transferencia',
-                            'icon' => 'fas fa-exchange-alt',
-                        ],
                     ],
         ],
         [
@@ -312,10 +307,15 @@ return [
                         ],
                         [
                             'text' => 'Retirar e adicionar moeda',
-                            'url'  => '/gestaocliente/adicionarretirarvalor',
+                            'url'  => '#',
                             'icon' => 'fas fa-hand-holding-usd',
                         ],
                     ],
+        ],
+        [
+            'text' => 'Transferência',
+            'url'  => 'settings/transferencia',
+            'icon' => 'fas fa-exchange-alt',
         ],
         ['header'  => 'Operações de caixa'],
         [
