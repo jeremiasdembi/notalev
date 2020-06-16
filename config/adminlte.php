@@ -232,11 +232,11 @@ return [
     */
 
     'menu' => [
-        [
+        /*[
             'text' => 'search',
             'search' => true,
             'topnav' => true,
-        ],
+        ],*/
         [
             'text' => 'Pagina Inicial',
             'url'  => '/home',

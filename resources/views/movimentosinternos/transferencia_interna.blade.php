@@ -12,11 +12,9 @@
                     <h3 class="card-title">Transferência Interna</h3>
                     <br><br>
                     <div class="input-group">
-                        <input type="search" class="form-control" placeholder="Procurar Tipo de Operação">
-                        <div class="input-group-append">
-                            <button class="btn btn-secondary" type="button">
-                                <i class="fa fa-search"></i>
-                            </button>
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="exampleInputFile">
+                            <label class="custom-file-label" for="exampleInputFile">Escolhe um ficheiro</label>
                         </div>
                     </div>
                         <br>
@@ -73,7 +71,7 @@
                             <div class="col-md-9"></div>
                             <div class="form-group col-md-3">
                             <label>Saldo Total a Debitar</label><br>
-                                <input type="text" class="form-control" placeholder=" Saldo Total a Debitar em Kwanza">
+                                <input type="text" class="form-control" placeholder=" Saldo Total a Debitar em Kwanza" disabled>
                             </div>
                             <br>
                         </div>

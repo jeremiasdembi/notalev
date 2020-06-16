@@ -55,7 +55,7 @@
                                 <input type="text" class="form-control" placeholder=" Nome de Subconta">    
                             </div>
                             <div class="col-md-6 form-group">
-                                <input type="tel" class="form-control" placeholder=" Telefone ">    
+                                <input type="text" class="form-control" placeholder=" Telefone ">    
                             </div>
                         </div>
                         <div class="row">
@@ -68,10 +68,10 @@
                         </div>
                         <div class="row">
                             <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder=" Valor a adicionar em Kwanza">    
+                                <input type="number" class="form-control" placeholder=" Valor a adicionar em Kwanza">    
                             </div>
                             <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder=" Equivalente em NotaLev ">    
+                                <input type="text" class="form-control" placeholder=" Equivalente em NotaLev" disabled>    
                             </div>
                         </div>
                     </div>

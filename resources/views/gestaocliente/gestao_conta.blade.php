@@ -11,16 +11,21 @@
         <div class="col-md-6">
             <!--Começa o Criar e Atualizar Perfil-->
             <div class="card">
+                <form action="{{route('gestao_conta')}}" method="get" accept-charset="utf-8">
                 <div class="card-header">
                     <h3 class="card-title">Criar Conta</h3>
                     <br><br>
+                    
+                        
+                        
+                    
                     <div class="card-body p-0">
                         <div class="row">
                             <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder=" Nome">    
+                                <input type="text" class="form-control" placeholder=" Nome" required>    
                             </div>
                             <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder=" Apelido ">    
+                                <input type="text" class="form-control" placeholder=" Apelido " required>    
                             </div>
                         </div>
                         <div class="row">
@@ -29,11 +34,16 @@
                                     <div class="input-group-prepend">
                                       <span class="input-group-text"><i class="fas fa-phone"></i></span>
                                     </div>
-                                    <input type="text" class="form-control" data-mask="(999) 999 999 999" maxlength="12" placeholder="(999) 999 999 999" autocomplete="off">
+                                    <input type="text" class="form-control" data-inputmask='"mask": "(999) 999-9999"' data-mask="" im-insert="true">
                                 </div>    
                             </div>
                             <div class="col-md-6 form-group">
-                                <input type="email" class="form-control" placeholder=" E-mail">    
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                                    </div>
+                                    <input type="email" class="form-control" placeholder="Email" required>
+                                </div>    
                             </div>
                         </div>
                         <div class="row">
@@ -60,10 +70,10 @@
                             </div>
                         </div>
                         <div class="form-group">
-                                <input type="password" class="form-control" placeholder="Senha">
+                                <input type="password" class="form-control" placeholder="Senha" required>
                         </div>
                         <div class="form-group">
-                            <input type="password" class="form-control" placeholder="Confirmar senha">
+                            <input type="password" class="form-control" placeholder="Confirmar senha" required>
                         </div>
                       
                     </div>
@@ -78,7 +88,7 @@
                         </div>
                         <div class="col-sm-3">
                             <div class="form-group">
-                               <button type="button" class="btn btn-block btn-primary radius">Salvar</button>
+                               <button type="submit" class="btn btn-block btn-primary radius">Salvar</button>
                             </div>
 
                         </div>
@@ -97,6 +107,7 @@
 
                 <!-- /.card-footer-->
             </div>
+            </form>
         </div>
         <!--/.direct-Termina a Primeira Coluna -->
         </div>

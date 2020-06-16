@@ -17,10 +17,10 @@
                     <div class="card-body p-0">
                         <div class="row">
                             <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder=" Número de Conta">    
+                                <input type="text" class="form-control" placeholder=" Número de Conta" disabled>    
                             </div>
                             <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder=" Nome">    
+                                <input type="text" class="form-control" placeholder=" Nome" disabled>    
                             </div>
                         </div>
                         <div class="row">
@@ -28,15 +28,15 @@
                                 <input type="text" class="form-control" placeholder=" Valor a Transacionar em Kz">    
                             </div>
                             <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder=" Equivalente NOTALEV">    
+                                <input type="text" class="form-control" placeholder=" Equivalente NOTALEV" disabled>    
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder=" Tipo Operação">    
+                                <input type="text" class="form-control" placeholder=" Tipo Operação" disabled>    
                             </div>
                             <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder=" Data hora">    
+                                <input type="text" class="form-control" placeholder=" Data hora" disabled>    
                             </div>
                         </div>
                         

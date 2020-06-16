@@ -91,18 +91,18 @@
                     <br><br>
                     <div class="row">
                         <div class="col-md-6 form-group">
-                            <input type="text" class="form-control" placeholder=" Número de Conta">    
+                            <input type="text" class="form-control" placeholder=" Número de Conta" disabled>    
                         </div>
                         <div class="col-md-6 form-group">
-                            <input type="text" class="form-control" placeholder=" Nome">    
+                            <input type="text" class="form-control" placeholder=" Nome" disabled>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6 form-group">
-                            <input type="text" class="form-control" placeholder=" Nº de Associados">
+                            <input type="text" class="form-control" placeholder=" Nº de Associados" disabled>
                         </div>
                         <div class="col-md-6 form-group">
-                            <input type="text" class="form-control" placeholder=" Nº de Transações Feitas">
+                            <input type="text" class="form-control" placeholder=" Nº de Transações Feitas" disabled>
                         </div>
                     </div>
                     <label> Lista dos seus associados</label>

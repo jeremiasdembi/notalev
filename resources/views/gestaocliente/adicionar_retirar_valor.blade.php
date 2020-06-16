@@ -121,18 +121,18 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6 form-group">
-                            <input type="text" class="form-control" placeholder=" Nome da Subconta">    
+                            <input type="text" class="form-control" placeholder=" Nome da Subconta" disabled>
                         </div>
                         <div class="col-md-6 form-group">
-                            <input type="text" class="form-control" placeholder=" Saldo actual da Subconta">    
+                            <input type="text" class="form-control" placeholder=" Saldo actual da Subconta" disabled>    
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6 form-group">
-                            <input type="text" class="form-control" placeholder=" Valor em Kwanza">
+                            <input type="number" class="form-control" placeholder=" Valor em Kwanza">
                         </div>
                         <div class="col-md-6 form-group">
-                            <input type="text" class="form-control" placeholder=" Equivalente em Notalev">
+                            <input type="text" class="form-control" placeholder=" Equivalente em Notalev" disabled>
                         </div>
                     </div>
                     <br>

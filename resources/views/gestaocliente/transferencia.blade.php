@@ -50,26 +50,26 @@
                     <div class="card-body p-0">
                         <div class="row">
                             <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder=" Número da conta de Origem">    
+                                <input type="text" class="form-control" placeholder=" Número da conta de Origem" disabled>    
                             </div>
                             <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder=" Saldo da conta de Origem ">    
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder=" Número da conta de Destino">    
-                            </div>
-                            <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder=" Saldo da conta de Destino ">    
+                                <input type="text" class="form-control" placeholder=" Saldo da conta de Origem" disabled>    
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder=" Valor a adicionar em Kwanza">    
+                                <input type="text" class="form-control" placeholder=" Número da conta de Destino" disabled>    
                             </div>
                             <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder=" Equivalente em NotaLev ">    
+                                <input type="text" class="form-control" placeholder=" Saldo da conta de Destino" disabled>    
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <input type="number" class="form-control" placeholder=" Valor a adicionar em Kwanza">    
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <input type="text" class="form-control" placeholder=" Equivalente em NotaLev" disabled>    
                             </div>
                         </div>
                         <div class="row">

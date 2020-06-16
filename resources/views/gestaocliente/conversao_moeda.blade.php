@@ -16,10 +16,10 @@
                     <br><br>
                     <div class="row">
                         <div class="col-md-6 form-group">
-                            <input type="text" class="form-control" placeholder=" Valor a Carregar">    
+                            <input type="number" class="form-control" placeholder=" Valor a Carregar">    
                         </div>
                         <div class="col-md-6 form-group">
-                            <input type="text" class="form-control" placeholder=" Equivalente em Nl">    
+                            <input type="text" class="form-control" placeholder=" Equivalente em Nl" disabled>    
                         </div>
                     </div>
                     <div class="row">
@@ -27,7 +27,12 @@
                             <input type="text" class="form-control" placeholder=" Referência Bancária">
                         </div>
                         <div class="col-md-6 form-group">
-                            <button type="button" class="btn btn-block btn-secondary radius">Enviar Comprovativo</button>  
+                            <div class="input-group">
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="exampleInputFile">
+                                    <label class="custom-file-label" for="exampleInputFile">Escolhe um ficheiro</label>
+                                </div>
+                            </div>
                         </div>
                     </div>
                    <div class="row">
@@ -74,7 +79,7 @@
                         </div>
                         <div class="col-sm-4">
                             <div class="form-group">
-                               <button type="button" class="btn btn-block btn-primary radius">Confirmar</button>
+                               <button type="submit" class="btn btn-block btn-primary radius">Confirmar</button>
                             </div>
                         </div>
                         
