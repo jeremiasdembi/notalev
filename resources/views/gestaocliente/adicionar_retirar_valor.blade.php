@@ -106,6 +106,9 @@
             <!-- /.col -->
         
         </div>
+        <form action="" method="">
+            
+        
         <div class="col-md-6">
             <!--Começa o Criar e Atualizar Perfil-->
             <div class="card">
@@ -129,7 +132,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6 form-group">
-                            <input type="number" class="form-control" placeholder=" Valor em Kwanza">
+                            <input type="number" class="form-control" placeholder=" Valor em Kwanza" required="">
                         </div>
                         <div class="col-md-6 form-group">
                             <input type="text" class="form-control" placeholder=" Equivalente em Notalev" disabled>
@@ -161,6 +164,7 @@
         <!--/.direct-Termina a Primeira Coluna -->
         
         </div>
+        </form>
 
     </div>
 

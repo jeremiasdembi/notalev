@@ -46,6 +46,7 @@
                         <br>
                     </div>
                 </div>
+                <form action="" method="">
                 <div class="card-header">
                     <h3 class="card-title">Dados para a Subconta</h3>
                     <br><br>
@@ -110,6 +111,7 @@
 
                 <!-- /.card-footer-->
             </div>
+            </form>
         </div>
         <!--/.direct-Termina a Primeira Coluna -->
         </div>

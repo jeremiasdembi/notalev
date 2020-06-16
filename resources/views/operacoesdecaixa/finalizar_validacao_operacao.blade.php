@@ -10,6 +10,7 @@
         <!--Começa o primeiro Bloco do grupo de divisão-->
         <div class="col-md-12">
             <!--Começa o Criar e Atualizar Perfil-->
+            <form action="" method="">
             <div class="card">
                 <div class="card-header">
                     <h3 class="card-title">Finalizar Validação e Operação</h3>
@@ -82,6 +83,7 @@
                 <!-- /.card-footer-->
             </div>
         </div>
+        </form>
         <!--/.direct-Termina a Primeira Coluna -->
         </div>
         <!--Termina o Criar e Atualizar Perfil-->

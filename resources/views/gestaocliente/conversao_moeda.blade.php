@@ -10,6 +10,7 @@
         <!--Começa o primeiro Bloco do grupo de divisão-->
         <div class="col-md-6">
             <!--Começa o Criar e Atualizar Perfil-->
+            <form action="" method="">
             <div class="card">
                 <div class="card-header">
                     <h3 class="card-title">Adicional Valor a Conta</h3>
@@ -92,6 +93,7 @@
 
                 <!-- /.card-footer-->
             </div>
+            </form>
 
         <!--/.direct-Termina a Primeira Coluna -->
         </div>
@@ -101,6 +103,7 @@
         <!--Começa o primeiro Bloco do grupo de divisão-->
         <div class="col-md-6">
             <!-- DIRECT CHAT -->
+            <form action="" method="">
             <div class="card">
                 <div class="card-header">
                     <h3 class="card-title">Retirar Valor da Conta</h3>
@@ -191,6 +194,7 @@
 
                 <!-- /.card-footer-->
             </div>
+            </form>
         <!--/.direct-chat -->
         </div>
         <!--Termina o Listar Perfil-->

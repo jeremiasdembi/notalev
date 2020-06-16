@@ -44,8 +44,10 @@
                     <div class="row">
                         <br>
                     </div>
-                </div><div class="card-header">
-                    <h3 class="card-title">Dados para a Subconta</h3>
+                </div>
+                <form action="" method="">
+                <div class="card-header">
+                    <h3 class="card-title">Dados para Finalizar Transferência</h3>
                     <br><br>
                     <div class="card-body p-0">
                         <div class="row">
@@ -140,6 +142,7 @@
 
                 <!-- /.card-footer-->
             </div>
+            </form>
 
         <!--/.direct-Termina a Primeira Coluna -->
         </div>
