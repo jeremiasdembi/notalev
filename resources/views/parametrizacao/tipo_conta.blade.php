@@ -11,16 +11,17 @@
         <div class="col-md-12">
             <!--Começa o Criar e Atualizar Perfil-->
             <div class="card">
-                <div class="card-header">
+                <form>
+                    <div class="card-header">
                     <h3 class="card-title">Cadastrar Tipo de Conta</h3>
                     <br><br>
                     <div class="card-body p-0">
                         <div class="row">
                             <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder=" Tipo de Conta">    
+                                <input type="text" class="form-control" placeholder=" Tipo de Conta" required>    
                             </div>
                             <div class="col-md-6 form-group">
-                                <input type="tel" class="form-control" placeholder=" Descrição ">    
+                                <input type="tel" class="form-control" placeholder=" Descrição " required>    
                             </div>
                         </div>
                         
@@ -36,7 +37,7 @@
                         </div>
                         <div class="col-sm-3">
                             <div class="form-group">
-                               <button type="button" class="btn btn-block btn-primary radius">Salvar</button>
+                               <button type="submit" class="btn btn-block btn-primary radius">Salvar</button>
                             </div>
 
                         </div>
@@ -60,6 +61,8 @@
 
                 <!-- /.card-footer-->
             </div>
+                </form>
+                
         </div>
         <!--/.direct-Termina a Primeira Coluna -->
         </div>
@@ -77,14 +80,17 @@
                 <div class="card-header">
                     <h3 class="card-title">Consultar Tipos de Subconta</h3>
                     <br><br>
-                    <div class="input-group">
+                    <form action="" method="">
+                        <div class="input-group">
                         <input type="search" class="form-control" placeholder="Procurar Tipo de Operação">
                         <div class="input-group-append">
-                            <button class="btn btn-secondary" type="button">
+                            <button class="btn btn-secondary" type="submit">
                                 <i class="fa fa-search"></i>
                             </button>
                         </div>
                     </div>
+                    </form>
+                    
                     <div class="row">
                     </div>
                 </div>

@@ -11,16 +11,17 @@
         <div class="col-md-12">
             <!--Começa o Criar e Atualizar Perfil-->
             <div class="card">
-                <div class="card-header">
+                <form action="" method="">
+                    <div class="card-header">
                     <h3 class="card-title">Cadastrar Tipo de Operação</h3>
                     <br><br>
                     <div class="card-body p-0">
                         <div class="row">
                             <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder=" Nome da Operação">    
+                                <input type="text" class="form-control" placeholder=" Nome da Operação" required>    
                             </div>
                             <div class="col-md-6 form-group">
-                                <input type="tel" class="form-control" placeholder=" Descrição ">    
+                                <input type="tel" class="form-control" placeholder=" Descrição " required>    
                             </div>
                         </div>
                         <div class="row">
@@ -45,7 +46,7 @@
                         </div>
                         <div class="col-sm-3">
                             <div class="form-group">
-                               <button type="button" class="btn btn-block btn-primary radius">Salvar</button>
+                               <button type="submit" class="btn btn-block btn-primary radius">Salvar</button>
                             </div>
 
                         </div>
@@ -69,6 +70,8 @@
 
                 <!-- /.card-footer-->
             </div>
+                </form>
+                
         </div>
         <!--/.direct-Termina a Primeira Coluna -->
         </div>
@@ -83,19 +86,25 @@
         <div class="col-md-12">
             <!--Começa o Criar e Atualizar Perfil-->
             <div class="card">
+                <form>
+                    
+                </form>
                 <div class="card-header">
-                    <h3 class="card-title">Consultar Tipos de Operação</h3>
-                    <br><br>
-                    <div class="input-group">
-                        <input type="search" class="form-control" placeholder="Procurar Tipo de Operação">
-                        <div class="input-group-append">
-                            <button class="btn btn-secondary" type="button">
-                                <i class="fa fa-search"></i>
-                            </button>
+                    <form action="" method="">
+                        <h3 class="card-title">Consultar Tipos de Operação</h3>
+                        <br><br>
+                        <div class="input-group">
+                            <input type="search" class="form-control" placeholder="Procurar Tipo de Operação">
+                            <div class="input-group-append">
+                                <button class="btn btn-secondary" type="submit">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                    </div>
+                        <div class="row">
+                        </div>
+                    </form>
+                    
                 </div>
                 <div class="card-header">
                     <div class="card-body p-0">
@@ -141,7 +150,8 @@
                         <div class="row">
                             <br>
                         </div>
-                        <div class="row">
+                        <form action="" method="">
+                          <div class="row">
                             <div class="col-sm-3">
                                 <div class="form-group">
                                 <!--Adicionamos espaço vazio, para movimentar os botões a esquerda-->
@@ -149,15 +159,17 @@
                             </div>
                             <div class="col-sm-3">
                                 <div class="form-group">
-                                    <button type="button" class="btn btn-block btn-success radius">Atualizar</button>
+                                    <button type="submit" class="btn btn-block btn-success radius">Atualizar</button>
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <div class="form-group">
-                                    <button type="button" class="btn btn-block btn-danger radius">Eliminar</button>
+                                    <button type="submit" class="btn btn-block btn-danger radius">Eliminar</button>
                                 </div>
                             </div>
-                        </div>
+                        </div>  
+                        </form>
+                        
                     </div>
                 </div>
                 <!-- /.card-header -->

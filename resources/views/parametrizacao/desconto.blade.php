@@ -11,16 +11,17 @@
         <div class="col-md-12">
             <!--Começa o Criar e Atualizar Perfil-->
             <div class="card">
-                <div class="card-header">
+                <form action="" method="">
+                   <div class="card-header">
                     <h3 class="card-title">Cadastrar Novo Desconto</h3>
                     <br><br>
                     <div class="card-body p-0">
                         <div class="row">
                             <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder=" Tipo de Desconto">    
+                                <input type="text" class="form-control" placeholder=" Tipo de Desconto" required>    
                             </div>
                             <div class="col-md-6 form-group">
-                                <input type="tel" class="form-control" placeholder=" Percentual de Desconto ">    
+                                <input type="tel" class="form-control" placeholder=" Percentual de Desconto " required>    
                             </div>
                         </div>
                         <div class="row">
@@ -53,13 +54,13 @@
                         </div>
                         <div class="col-sm-2">
                             <div class="form-group">
-                               <button type="button" class="btn btn-block btn-primary radius">Salvar</button>
+                               <button type="submit" class="btn btn-block btn-primary radius">Salvar</button>
                             </div>
 
                         </div>
                         <div class="col-sm-2">
                             <div class="form-group">
-                                <button type="button" class="btn btn-block btn-success radius">Atualizar</button>
+                                <button type="submit" class="btn btn-block btn-success radius">Atualizar</button>
                             </div>
                         </div>
                         <!--<div class="col-sm-2">
@@ -86,7 +87,9 @@
                 <!-- /.card-body -->
 
                 <!-- /.card-footer-->
-            </div>
+            </div> 
+                </form>
+                
         </div>
         <!--/.direct-Termina a Primeira Coluna -->
         </div>
@@ -103,79 +106,82 @@
         <div class="col-md-12">
             <!--Começa o Criar e Atualizar Perfil-->
             <div class="card">
-                <div class="card-header">
-                    <h3 class="card-title">Actualizar Desconto</h3>
-                    <br><br>
-                    <div class="input-group">
-                        <input type="search" class="form-control" placeholder="Seleccionar Conta">
-                        <div class="input-group-append">
-                            <button class="btn btn-secondary" type="button">
-                                <i class="fa fa-search"></i>
-                            </button>
+                <form action="" method="">
+                    <div class="card-header">
+                        <h3 class="card-title">Actualizar Desconto</h3>
+                        <br><br>
+                        <div class="input-group">
+                            <input type="search" class="form-control" placeholder="Seleccionar Conta">
+                            <div class="input-group-append">
+                                <button class="btn btn-secondary" type="submit">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card-body p-0">
-                    <div class="row">
-                        <br>
-                    </div>
-                </div>
-                <div class="card-header">
-                    <br>
-                    <div class="card-body p-0">
-                        <table class="table table-striped">
-                             <thead>
-                                <tr>
-                                    <th>Tipo de Desconto</th>
-                                    <th>Percentagem</th>
-                                    <th>Tipo de Conta</th>
-                                    <th>Tipo de Operação</th>
-                                    <th>Acção</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td><a href="#" class="">100</a></td>
-                                    <td>18736 Nl</td>
-                                    <td></td>
-                                    <td>
-                                        <a href="#">Editar </a>
-                                        <a href="#" class="linkTableRemover">Remover</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td><a href="#" class="">100</a></td>
-                                    <td>18736 Nl</td>
-                                    <td></td>
-                                    <td>
-                                        <a href="#">Editar </a>
-                                        <a href="#" class="linkTableRemover">Remover</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td><a href="#" class="">100</a></td>
-                                    <td>18736 Nl</td>
-                                    <td></td>
-                                    <td>
-                                        <a href="#">Editar </a>
-                                        <a href="#" class="linkTableRemover">Remover</a>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div class="card-body p-0">
                         <div class="row">
                             <br>
                         </div>
                     </div>
+                    <div class="card-header">
+                        <br>
+                        <div class="card-body p-0">
+                            <table class="table table-striped">
+                                 <thead>
+                                    <tr>
+                                        <th>Tipo de Desconto</th>
+                                        <th>Percentagem</th>
+                                        <th>Tipo de Conta</th>
+                                        <th>Tipo de Operação</th>
+                                        <th>Acção</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td><a href="#" class="">100</a></td>
+                                        <td>18736 Nl</td>
+                                        <td></td>
+                                        <td>
+                                            <a href="#">Editar </a>
+                                            <a href="#" class="linkTableRemover">Remover</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td><a href="#" class="">100</a></td>
+                                        <td>18736 Nl</td>
+                                        <td></td>
+                                        <td>
+                                            <a href="#">Editar </a>
+                                            <a href="#" class="linkTableRemover">Remover</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td><a href="#" class="">100</a></td>
+                                        <td>18736 Nl</td>
+                                        <td></td>
+                                        <td>
+                                            <a href="#">Editar </a>
+                                            <a href="#" class="linkTableRemover">Remover</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="row">
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.card-header -->
+
+                    <!-- /.card-body -->
+
+                    <!-- /.card-footer-->
                 </div>
-                <!-- /.card-header -->
-
-                <!-- /.card-body -->
-
-                <!-- /.card-footer-->
-            </div>
+                </form>
+                
 
         <!--/.direct-Termina a Primeira Coluna -->
         </div>

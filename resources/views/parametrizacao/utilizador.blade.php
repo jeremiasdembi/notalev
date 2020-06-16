@@ -11,30 +11,31 @@
         <div class="col-md-6">
             <!--Começa o Criar e Atualizar Perfil-->
             <div class="card">
-                <div class="card-header">
+                <form action="" method="">
+                    <div class="card-header">
                     <h3 class="card-title">Criar Utilizador</h3>
                     <br><br>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder=" Nome ">
+                        <input type="text" class="form-control" placeholder=" Nome " required>
                     </div>
 
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Nome utlizador">
+                        <input type="text" class="form-control" placeholder="Nome utlizador" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" placeholder="email">
+                        <input type="email" class="form-control" placeholder="email" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="senha">
+                        <input type="text" class="form-control" placeholder="senha" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Nome do Perfil">
+                        <input type="text" class="form-control" placeholder="Nome do Perfil" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Número de conta Notalev">
+                        <input type="text" class="form-control" placeholder="Número de conta Notalev" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Número de identificação pessoal">
+                        <input type="text" class="form-control" placeholder="Número de identificação pessoal" required>
                     </div>
                     
                     <div class="row">
@@ -59,7 +60,7 @@
                         </div>
                         <div class="col-sm-3">
                             <div class="form-group">
-                               <button type="button" class="btn btn-block btn-primary radius">Salvar</button>
+                               <button type="submit" class="btn btn-block btn-primary radius">Salvar</button>
                             </div>
 
                         </div>
@@ -71,6 +72,8 @@
                     </div>
 
                 </div>
+                </form>
+                
                 <!-- /.card-header -->
 
                 <!-- /.card-body -->
@@ -87,7 +90,8 @@
         <div class="col-md-6">
             <!-- DIRECT CHAT -->
             <div class="card">
-                <div class="card-header">
+                <form action="" method="">
+                    <div class="card-header">
                     <h3 class="card-title">Actualizar utilizador</h3>
                     <br><br>
                     <div class="input-group">
@@ -153,7 +157,9 @@
                     <br><br><br><br><br><br><br>
 
 
-                </div>
+                </div >
+                </form>
+                
                 <!-- /.card-header -->
 
                 <!-- /.card-body -->

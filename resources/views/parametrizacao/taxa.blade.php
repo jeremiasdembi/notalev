@@ -11,21 +11,22 @@
         <div class="col-md-6">
             <!--Começa o Criar e Atualizar Perfil-->
             <div class="card">
-                <div class="card-header">
+                <form action="" method="">
+                    <div class="card-header">
                     <h3 class="card-title">Criar Taxa</h3>
                     <br><br>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Nome da Taxa">
+                        <input type="text" class="form-control" placeholder="Nome da Taxa" required>
                     </div>
                     <div class="form-group">
                         <textarea class="form-control" rows="3" placeholder="Descrição">
                         </textarea>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Percentagem da Taxa">
+                        <input type="text" class="form-control" placeholder="Percentagem da Taxa" required>
                     </div>
                     <div class="form-group">
-                       <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                       <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
                     </div>
                     <div class="row">
                         <br><br>
@@ -38,7 +39,7 @@
                         </div>
                         <div class="col-sm-3">
                             <div class="form-group">
-                               <button type="button" class="btn btn-block btn-primary radius">Salvar</button>
+                               <button type="submit" class="btn btn-block btn-primary radius">Salvar</button>
                             </div>
                         </div>
                         <div class="col-sm-3">
@@ -49,6 +50,8 @@
                     </div>
 
                 </div>
+                </form>
+                
                 <!-- /.card-header -->
 
                 <!-- /.card-body -->
@@ -68,14 +71,16 @@
                 <div class="card-header">
                     <h3 class="card-title">Actualizar Taxa</h3>
                     <br><br>
-                    <div class="input-group">
-                        <input type="search" class="form-control" placeholder="Seleccionar Perfil">
-                        <div class="input-group-append">
-                            <button class="btn btn-secondary" type="button">
-                                <i class="fa fa-search"></i>
-                            </button>
+                    <form action="" method="">
+                        <div class="input-group">
+                            <input type="search" class="form-control" placeholder="Seleccionar Perfil">
+                            <div class="input-group-append">
+                                <button class="btn btn-secondary" type="button">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
                         </div>
-                    </div>
+                    </form>
                     <div class="card-body p-0">
                         <table class="table table-striped">
                             <thead>

@@ -11,11 +11,12 @@
         <div class="col-md-6">
             <!--Começa o Criar e Atualizar Perfil-->
             <div class="card">
-                <div class="card-header">
+                <form action="" method="">
+                    <div class="card-header">
                     <h3 class="card-title">Criar Perfil</h3>
                     <br><br>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Nome do Perfil">
+                        <input type="text" class="form-control" placeholder="Nome do Perfil" required>
                     </div>
                     <div class="form-group">
                         <textarea class="form-control" rows="3" placeholder="Descrição">
@@ -75,6 +76,7 @@
                         <br><br>
                     </div>
                     <div class="row">
+                        <form action="" method="">
                         <div class="col-sm-3">
                             <div class="form-group">
                                <!--Adicionamos espaço vazio, para movimentar os botões a esquerda-->
@@ -82,7 +84,7 @@
                         </div>
                         <div class="col-sm-3">
                             <div class="form-group">
-                               <button type="button" class="btn btn-block btn-primary radius">Salvar</button>
+                               <button type="submit" class="btn btn-block btn-primary radius">Salvar</button>
                             </div>
                         </div>
                         <div class="col-sm-3">
@@ -90,9 +92,12 @@
                            <button type="button" class="btn btn-block btn-success radius">Atualizar</button>
                         </div>
                         </div>
+                        </form>
                     </div>
 
                 </div>
+                </form>
+                
                 <!-- /.card-header -->
 
                 <!-- /.card-body -->
