@@ -25,6 +25,7 @@
     {{-- Base Stylesheets --}}
     @if(!config('adminlte.enabled_laravel_mix'))
         <link rel="stylesheet" href="{{ asset('vendor/fontawesome-free/css/all.min.css') }}">
+        <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
         <link rel="stylesheet" href="{{ asset('vendor/overlayScrollbars/css/OverlayScrollbars.min.css') }}">
 
         {{-- Configured Stylesheets --}}
@@ -64,6 +65,7 @@
     @endif
         <link rel="stylesheet" href="{{ asset('vendor/adminlte/dist/css/adminlteButton.css') }}">
         <link rel="stylesheet" href="{{ asset('vendor/adminlte/dist/css/adminlteLink.css') }}">
+
 </head>
 
 <body class="@yield('classes_body')" @yield('body_data')>
@@ -85,7 +87,8 @@
 
     {{-- Custom Scripts --}}
     @yield('adminlte_js')
-
+    <script src="{{ asset('js/alert_toast_launch.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('js/mask_phone_number.js') }}" type="text/javascript"></script>
 </body>
 
 </html>
