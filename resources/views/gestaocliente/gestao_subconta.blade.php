@@ -15,7 +15,7 @@
                     <h3 class="card-title">Cadastrar Subconta</h3>
                     <br><br>
                     <div class="input-group">
-                        <input type="search" class="form-control" placeholder="Seleccionar Conta">
+                        <input type="search" class="form-control" placeholder="Pesquisar Conta">
                         <div class="input-group-append">
                             <button class="btn btn-secondary" type="button">
                                 <i class="fa fa-search"></i>
@@ -96,19 +96,6 @@
                             </div>
 
                         </div>
-                        <!--<div class="col-sm-3">
-                            <div class="form-group">
-                                <button type="button" class="btn btn-block btn-success radius">Atualizar</button>
-                            </div>
-                        </div>
-                        <div class="col-sm-3">
-                            <div class="form-group">
-                                <button type="button" class="btn btn-block btn-danger radius">Eliminar</button>
-                            </div>
-                        </div>-->
-                    <div class="row">
-                        <br><br>
-                    </div>
                 </div>
                 <!-- /.card-header -->
 
@@ -127,7 +114,7 @@
                     <h3 class="card-title">Actualizar Subconta</h3>
                     <br><br>
                     <div class="input-group">
-                        <input type="search" class="form-control" placeholder="Seleccionar Conta">
+                        <input type="search" class="form-control" placeholder="Pesquisar Conta">
                         <div class="input-group-append">
                             <button class="btn btn-secondary" type="button">
                                 <i class="fa fa-search"></i>
@@ -168,7 +155,7 @@
                                     <th>Nº de Subconta</th>
                                     <th>Nome</th>
                                     <th>Saldo</th>
-                                    <th>Seleccionar</th>
+                                    <th>Acção</th>
                                 </tr>
                             </thead>
                             <tbody>
