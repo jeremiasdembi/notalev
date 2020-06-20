@@ -63,9 +63,9 @@
         {{-- User menu footer --}}
         <li class="user-footer">
             @if($profile_url)
-                <a href="{{ $profile_url }}" class="btn btn-default btn-flat">
+                <a href="{{ $profile_url }}" class="btn btn-default btn-flat" data-toggle="modal" data-target="#modal-lg-user">
                     <i class="fa fa-fw fa-user"></i>
-                    {{ __('adminlte::menu.profile') }}
+                    {{ __('adminlte::menu.profile') }} 
                 </a>
             @endif
             <a class="btn btn-default btn-flat float-right @if(!$profile_url) btn-block @endif"

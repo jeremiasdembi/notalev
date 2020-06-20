@@ -33,7 +33,6 @@ Route::view('/parametrizacao/desconto', 'parametrizacao/desconto')->name('descon
 Route::view('/gestaocliente/transferencia', 'gestaocliente/transferencia')->name('transferencia');
 Route::view('/historicotransacao/historicotransacao', 'historicotransacao/historico_transacao')->name('historicotransacao');
 Route::view('/operacoesdecaixa/validaroperacoes', 'operacoesdecaixa/validar_operacoes')->name('validaroperacoes');
-Route::view('/operacoesdecaixa/finalizarvalidacao', 'operacoesdecaixa/finalizar_validacao_operacao')->name('finalizarvalidacao');
 Route::view('/redebinaria/verassociados', 'redebinaria/ver_associados')->name('verassociados');
 Route::view('/movimentosinternos/transferenciainterna', 'movimentosinternos/transferencia_interna')->name('transferenciainterna');
 Route::view('/parametrizacao/operacao', 'parametrizacao/operacao')->name('operacao');
