@@ -12,7 +12,7 @@
             <!-- DIRECT CHAT -->
             <div class="card">
                 <div class="card-header">
-                    <h3 class="card-title">Informar a Subconta</h3>
+                    <h3 class="card-title">Adicionar e Retirar Valor a Subconta</h3>
                     <br><br>
                     <div class="input-group">
                         <input type="search" class="form-control" placeholder="Seleccionar Conta">
@@ -33,12 +33,6 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td>00975136AMB85</td>
-                                    <td><a href="#" class="">Delton</a></td>
-                                    <td>97513 Nl</td>
-                                    <td><a href="#">Seleccionar</a></td>
-                                </tr>
                                 <tr>
                                     <td>00975136AMB85</td>
                                     <td><a href="#" class="">Clean database</a></td>

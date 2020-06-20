@@ -11,7 +11,7 @@
             <!-- DIRECT CHAT -->
             <div class="card">
                 <div class="card-header">
-                    <h3 class="card-title">Validar Operações</h3>
+                    <h3 class="card-title">Validar Transação</h3>
                     <br><br>
                     <div class="input-group">
                         <input type="search" class="form-control" placeholder="Seleccionar Conta">
@@ -42,12 +42,12 @@
                                     <td>97513 Nl</td>                                    
                                     <td>Pagamaneto de Serviço</td>
                                     <td>2020-06-14</td>
-                                    <td><a href="/operacoesdecaixa/finalizarvalidacao">Validar</a></td>
+                                    <td><a href="#" data-toggle="modal" data-target="#modal-lg">Validar</a></td>
                                 </tr>
                                 <tr>
                                     <td><a href="#">X1754C7</a></td>
                                     <td><a href="#">00975136AMB85</a></td>
-                                    <td><a href="/operacoesdecaixa/finalizarvalidacao">00975136AMB88</a></td>
+                                    <td><a href="#">00975136AMB88</a></td>
                                     <td>97513 Nl</td>                                    
                                     <td>Carregamento de Saldo</td>
                                     <td>2020-06-14</td>
@@ -104,7 +104,71 @@
         
 
     </div>
+    <!-- Pop UP Model-->
+    <div class="modal fade" id="modal-lg" style="display: none;" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <form action="" method="">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Finalizar Validação de Transação</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+                <div class="card">
+                <div class="card-header">
+                    <div class="card-body p-0">
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <input type="text" class="form-control" placeholder=" Número de Conta" disabled>    
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <input type="text" class="form-control" placeholder=" Nome" disabled>    
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <input type="text" class="form-control" placeholder=" Valor a Transacionar em Kz">    
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <input type="text" class="form-control" placeholder=" Equivalente NOTALEV" disabled>    
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <input type="text" class="form-control" placeholder=" Tipo Operação" disabled>    
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <input type="text" class="form-control" placeholder=" Data hora" disabled>    
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="row">
+                        <br>
+                    </div>
+                <!-- /.card-header -->
 
+                <!-- /.card-body -->
+
+                <!-- /.card-footer-->
+            </div>
+        </div>
+
+            <!-- Termina Card -->
+
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+            <button type="button" class="btn btn-success">Validar Operação</button>
+          </div>
+        </div> 
+        </form>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
 </div>
 <!--Fim Container-->
 @endsection
