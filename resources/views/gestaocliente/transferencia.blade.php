@@ -25,7 +25,7 @@
                         <table class="table table-striped">
                              <thead>
                                 <tr>
-                                    <th>Conta de Origem</th>
+                                    <th>Nº de Conta</th>
                                     <th>Nome</th>
                                     <th>Seleccionar</th>
                                     <th>Seleccionar</th>
@@ -60,52 +60,22 @@
                         </div>
                         <div class="row">
                             <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder=" Número da conta de Destino" disabled>    
+                                <input type="text" class="form-control" placeholder=" Número da Conta de Destino" disabled>    
                             </div>
                             <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder=" Saldo da conta de Destino" disabled>    
+                                <input type="text" class="form-control" placeholder=" Saldo da Conta de Destino" disabled>    
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6 form-group">
-                                <input type="number" class="form-control" placeholder=" Valor a adicionar em Kwanza">    
+                                <input type="number" class="form-control" placeholder=" Valor a Transferir">    
                             </div>
                             <div class="col-md-6 form-group">
                                 <input type="text" class="form-control" placeholder=" Equivalente em NotaLev" disabled>    
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-6 form-group">
-                                <input type="password" class="form-control" placeholder=" Código de Confirmação">    
-                            </div>
-                            <div class="col-md-6 form-group">
-                                <input type="password" class="form-control" placeholder=" Confirmar Código ">    
-                            </div>
-                        </div>
-                        <!--<div class="row">
-                            <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder=" Número da conta de Origem">    
-                            </div>
-                            <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder=" Saldo da conta de Origem ">    
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder=" Valor a adicionar em Kwanza">    
-                            </div>
-                            <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder=" Equivalente em NotaLev ">    
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 form-group">
-                                <input type="password" class="form-control" placeholder=" Código de Confirmação">    
-                            </div>
-                            <div class="col-md-6 form-group">
-                                <input type="password" class="form-control" placeholder=" Confirmar Código ">    
-                            </div>
-                        </div>-->
+                        
+                        
                     </div>
                     <div class="row">
                         <br>
@@ -122,16 +92,7 @@
                             </div>
 
                         </div>
-                        <!--<div class="col-sm-3">
-                            <div class="form-group">
-                                <button type="button" class="btn btn-block btn-success radius">Atualizar</button>
-                            </div>
-                        </div>
-                        <div class="col-sm-3">
-                            <div class="form-group">
-                                <button type="button" class="btn btn-block btn-danger radius">Eliminar</button>
-                            </div>
-                        </div>-->
+                        
                     <div class="row">
                         <br><br>
                     </div>
