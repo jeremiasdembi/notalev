@@ -13,21 +13,21 @@
             <div class="card">
                 <form action="" method="">
                    <div class="card-header">
-                    <h3 class="card-title">Cadastrar Novo Desconto</h3>
+                    <h3 class="card-title">Cadastrar Desconto</h3>
                     <br><br>
                     <div class="card-body p-0">
                         <div class="row">
                             <div class="col-md-6 form-group">
-                                <input type="text" class="form-control" placeholder=" Tipo de Desconto" required>    
+                                <input type="text" class="form-control" placeholder="Desconto" required>    
                             </div>
                             <div class="col-md-6 form-group">
-                                <input type="tel" class="form-control" placeholder=" Percentual de Desconto " required>    
+                                <input type="number" class="form-control" placeholder=" Percentagem de Desconto" required>    
                             </div>
                         </div>
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <select class="form-control">
-                                    <option>Tipo de Operação</option>
+                                    <option>Selecionar Operação</option>
                                     <option>option 2</option>
                                     <option>option 3</option>
                                     <option>option 4</option>
@@ -35,7 +35,7 @@
                             </div>
                             <div class="form-group col-md-6">
                                 <select class="form-control">
-                                    <option>Tipo de Conta</option>
+                                    <option>Selecionar Tipo de Conta</option>
                                     <option>option 1</option>
                                     <option>option 3</option>
                                     <option>option 4</option>
@@ -52,32 +52,14 @@
                                <!--Adicionamos espaço vazio, para movimentar os botões a esquerda-->
                            </div>
                         </div>
-                        <div class="col-sm-2">
+                        <div class="col-sm-4">
                             <div class="form-group">
                                <button type="submit" class="btn btn-block btn-primary radius">Salvar</button>
                             </div>
 
                         </div>
-                        <div class="col-sm-2">
-                            <div class="form-group">
-                                <button type="submit" class="btn btn-block btn-success radius">Atualizar</button>
-                            </div>
-                        </div>
-                        <!--<div class="col-sm-2">
-                            <div class="form-group">
-                                <button type="button" class="btn btn-block btn-danger radius">Eliminar</button>
-                            </div>
-                        </div>-->
-                        <!--<div class="col-sm-3">
-                            <div class="form-group">
-                                <button type="button" class="btn btn-block btn-success radius">Atualizar</button>
-                            </div>
-                        </div>
-                        <div class="col-sm-3">
-                            <div class="form-group">
-                                <button type="button" class="btn btn-block btn-danger radius">Eliminar</button>
-                            </div>
-                        </div>-->
+                        
+                        
                     <div class="row">
                         <br><br>
                     </div>
@@ -111,7 +93,7 @@
                         <h3 class="card-title">Actualizar Desconto</h3>
                         <br><br>
                         <div class="input-group">
-                            <input type="search" class="form-control" placeholder="Seleccionar Conta">
+                            <input type="search" class="form-control" placeholder="Pesquisar Desconto">
                             <div class="input-group-append">
                                 <button class="btn btn-secondary" type="submit">
                                     <i class="fa fa-search"></i>
@@ -129,43 +111,34 @@
                             <table class="table table-striped">
                                  <thead>
                                     <tr>
-                                        <th>Tipo de Desconto</th>
+                                        <th>Desconto</th>
                                         <th>Percentagem</th>
                                         <th>Tipo de Conta</th>
-                                        <th>Tipo de Operação</th>
+                                        <th>Operação</th>
                                         <th>Acção</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>1</td>
-                                        <td><a href="#" class="">100</a></td>
-                                        <td>18736 Nl</td>
-                                        <td></td>
-                                        <td>
-                                            <a href="#">Editar </a>
-                                            <a href="#" class="linkTableRemover">Remover</a>
-                                        </td>
+                                        <td>Sei La</td>
+                                        <td>15</td>
+                                        <td>Conta Normal</td>
+                                        <td>Transferencia</td>
+                                        <td><a href="#" data-toggle="modal" data-target="#modal-lg">Editar</a></td>
                                     </tr>
                                     <tr>
-                                        <td>2</td>
-                                        <td><a href="#" class="">100</a></td>
-                                        <td>18736 Nl</td>
-                                        <td></td>
-                                        <td>
-                                            <a href="#">Editar </a>
-                                            <a href="#" class="linkTableRemover">Remover</a>
-                                        </td>
+                                        <td>Sei La</td>
+                                        <td>15</td>
+                                        <td>Conta Normal</td>
+                                        <td>Transferencia</td>
+                                        <td><a href="#" data-toggle="modal" data-target="#modal-lg">Editar</a></td>
                                     </tr>
                                     <tr>
-                                        <td>3</td>
-                                        <td><a href="#" class="">100</a></td>
-                                        <td>18736 Nl</td>
-                                        <td></td>
-                                        <td>
-                                            <a href="#">Editar </a>
-                                            <a href="#" class="linkTableRemover">Remover</a>
-                                        </td>
+                                        <td>Sei La</td>
+                                        <td>15</td>
+                                        <td>Conta Normal</td>
+                                        <td>Transferencia</td>
+                                        <td><a href="#">Editar</a></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -192,7 +165,76 @@
         <!--Termina o Listar Perfil-->
         <!-- /.col -->
     </div>
+    <!-- Pop UP Model-->
+    <div class="modal fade" id="modal-lg" style="display: none;" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <form action="" method="">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Atualizar Utilizador</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+                <div class="card">
+                
+                   <div class="card-header">
+                   
+                    <div class="card-body p-0">
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <input type="text" class="form-control" placeholder="Desconto" required>    
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <input type="number" class="form-control" placeholder=" Percentagem de Desconto" required>    
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <select class="form-control">
+                                    <option>Selecionar Operação</option>
+                                    <option>option 2</option>
+                                    <option>option 3</option>
+                                    <option>option 4</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <select class="form-control">
+                                    <option>Selecionar Tipo de Conta</option>
+                                    <option>option 1</option>
+                                    <option>option 3</option>
+                                    <option>option 4</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <br>
+                    </div>
+                    
+                <!-- /.card-header -->
 
+                <!-- /.card-body -->
+
+                <!-- /.card-footer-->
+                </div> 
+                
+            </div>
+
+            <!-- Termina Card -->
+
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+            <button type="button" class="btn btn-success">Salvar Alterações</button>
+          </div>
+        </div> 
+        </form>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
 </div>
 <!--Fim Container-->
 @endsection

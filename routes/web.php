@@ -36,5 +36,5 @@ Route::view('/operacoesdecaixa/validaroperacoes', 'operacoesdecaixa/validar_oper
 Route::view('/operacoesdecaixa/finalizarvalidacao', 'operacoesdecaixa/finalizar_validacao_operacao')->name('finalizarvalidacao');
 Route::view('/redebinaria/verassociados', 'redebinaria/ver_associados')->name('verassociados');
 Route::view('/movimentosinternos/transferenciainterna', 'movimentosinternos/transferencia_interna')->name('transferenciainterna');
-Route::view('/parametrizacao/tipooperacao', 'parametrizacao/tipo_operacao')->name('tipooperacao');
+Route::view('/parametrizacao/operacao', 'parametrizacao/operacao')->name('operacao');
 Route::view('/parametrizacao/tipoconta', 'parametrizacao/tipo_conta')->name('tipoconta');

@@ -13,7 +13,7 @@
             <div class="card">
                 <form action="" method="">
                     <div class="card-header">
-                    <h3 class="card-title">Criar Taxa</h3>
+                    <h3 class="card-title">Cadastrar Taxa</h3>
                     <br><br>
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Nome da Taxa" required>
@@ -23,30 +23,23 @@
                         </textarea>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Percentagem da Taxa" required>
-                    </div>
-                    <div class="form-group">
-                       <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
+                        <input type="text" class="form-control" placeholder="Valor da Taxa" required>
                     </div>
                     <div class="row">
                         <br><br>
                     </div>
                     <div class="row">
-                        <div class="col-sm-3">
+                        <div class="col-sm-4">
                             <div class="form-group">
                                <!--Adicionamos espaço vazio, para movimentar os botões a esquerda-->
                            </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-sm-4">
                             <div class="form-group">
                                <button type="submit" class="btn btn-block btn-primary radius">Salvar</button>
                             </div>
                         </div>
-                        <div class="col-sm-3">
-                        <div class="form-group">
-                           <button type="button" class="btn btn-block btn-success radius">Atualizar</button>
-                        </div>
-                        </div>
+                        
                     </div>
 
                 </div>
@@ -73,7 +66,7 @@
                     <br><br>
                     <form action="" method="">
                         <div class="input-group">
-                            <input type="search" class="form-control" placeholder="Seleccionar Perfil">
+                            <input type="search" class="form-control" placeholder="Pesquisar Perfil">
                             <div class="input-group-append">
                                 <button class="btn btn-secondary" type="button">
                                     <i class="fa fa-search"></i>
@@ -85,26 +78,22 @@
                         <table class="table table-striped">
                             <thead>
                                 <tr>
-                                    <th style="width: 10px">#</th>
                                     <th>Taxa</th>
-                                    <th>Seleccionar</th>
+                                    <th>Acção</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>1.</td>
                                     <td>Update software</td>
-                                    <td><a href="#">Seleccionar</a></td>
+                                    <td><a href="#" data-toggle="modal" data-target="#modal-lg">Editar</a></td>
                                 </tr>
                                 <tr>
-                                    <td>2.</td>
                                     <td>Clean database</td>
-                                    <td><a href="#">Seleccionar</a></td>
+                                    <td><a href="#">Editar</a></td>
                                 </tr>
                                 <tr>
-                                    <td>3.</td>
                                     <td>Cron job running</td>
-                                    <td><a href="#">Seleccionar</a></td>
+                                    <td><a href="#">Editar</a></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -124,7 +113,55 @@
         <!--Termina o Listar Perfil-->
         <!-- /.col -->
     </div>
+    <!-- Pop UP Model-->
+    <div class="modal fade" id="modal-lg" style="display: none;" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <form action="" method="">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Atualizar Utilizador</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+                <div class="card">
+                
+                    <div class="card-header">
+                   
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Nome da Taxa" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="3" placeholder="Descrição">
+                            </textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Valor da Taxa" required>
+                        </div>
+                    
+                    </div>
+                
+                <!-- /.card-header -->
 
+                <!-- /.card-body -->
+
+                <!-- /.card-footer-->
+            </div>
+
+            <!-- Termina Card -->
+
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+            <button type="button" class="btn btn-success">Salvar Alterações</button>
+          </div>
+        </div> 
+        </form>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
 </div>
 <!--Fim Container-->
 @endsection

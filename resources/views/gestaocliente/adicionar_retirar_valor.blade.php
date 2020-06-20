@@ -106,10 +106,11 @@
             <!-- /.col -->
         
         </div>
-        <form action="" method="">
+        
             
         
         <div class="col-md-6">
+            <form action="" method="">
             <!--Começa o Criar e Atualizar Perfil-->
             <div class="card">
                 <div class="card-header">

@@ -263,8 +263,8 @@ return [
                             'icon' => 'fas fa-percent',
                         ],
                         [
-                            'text' => 'Tipo de operação',
-                            'url'  => '/parametrizacao/tipooperacao',
+                            'text' => 'Operação',
+                            'url'  => '/parametrizacao/operacao',
                             'icon' => 'fas fa-hammer',
                         ],
                         [

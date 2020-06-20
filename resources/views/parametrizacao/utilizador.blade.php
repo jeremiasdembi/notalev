@@ -13,35 +13,32 @@
             <div class="card">
                 <form action="" method="">
                     <div class="card-header">
-                    <h3 class="card-title">Criar Utilizador</h3>
+                    <h3 class="card-title">Cadastrar Utilizador</h3>
                     <br><br>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder=" Nome " required>
+                        <input type="text" class="form-control" placeholder=" Nome Completo" required>
                     </div>
 
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Nome utlizador" required>
+                        <input type="text" class="form-control" placeholder="Nome de Utilizador" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" placeholder="email" required>
+                        <input type="email" class="form-control" placeholder="Email" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="senha" required>
+                        <input type="text" class="form-control" placeholder="Senha" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Nome do Perfil" required>
+                        <input type="text" class="form-control" placeholder="Número de Conta Notalev">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Número de conta Notalev" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Número de identificação pessoal" required>
+                        <input type="text" class="form-control" placeholder="Número de Identificação Pessoal" required>
                     </div>
                     
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="form-group">
-                                <select class="form-control">
+                                <select class="form-control" disabled="">
                                     <option>Selecionar perfil</option>
                                     <option>option 2</option>
                                     <option>option 3</option>
@@ -50,25 +47,20 @@
                             </div>
                         </div>
                     </div>
-
-                    <br> <br>
+                    <br> 
                     <div class="row">
-                        <div class="col-sm-3">
+                        <div class="col-sm-4">
                             <div class="form-group">
                                <!--Adicionamos espaço vazio, para movimentar os botões a esquerda-->
                            </div>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-sm-4">
                             <div class="form-group">
                                <button type="submit" class="btn btn-block btn-primary radius">Salvar</button>
                             </div>
 
                         </div>
-                        <div class="col-sm-3">
-                        <div class="form-group">
-                           <button type="button" class="btn btn-block btn-success radius">Atualizar</button>
-                        </div>
-                        </div>
+                        
                     </div>
 
                 </div>
@@ -95,7 +87,7 @@
                     <h3 class="card-title">Actualizar utilizador</h3>
                     <br><br>
                     <div class="input-group">
-                        <input type="search" class="form-control" placeholder="Selecionar Utilizador">
+                        <input type="search" class="form-control" placeholder="Pesquisar Utilizador">
                         <div class="input-group-append">
                             <button class="btn btn-secondary" type="button">
                                 <i class="fa fa-search"></i>
@@ -106,58 +98,49 @@
                         <table class="table table-striped">
                             <thead>
                                 <tr>
-                                    <th style="width: 30px">#</th>
-                                    <th>Codigo Utilizador</th>
                                     <th>Utilizador</th>
-                                    <th>Selecionar</th>
+                                    <th>Perfil</th>
+                                    <th>Acção</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td> </td>
-                                    <td>001</td>
-                                    <td>Delton Agostinho </td>
-                                    <td><a href="#">Selecionar</a></td>
+                                    <td>Delton Agostinho</td>
+                                    <td>Admin</td>
+                                    <td><a href="#" data-toggle="modal" data-target="#modal-lg">Editar</a></td>
                                 </tr>
                                 <tr>
-                                    <td> </td>
-                                    <td>002</td>
-                                    <td>Hugo Paulo </td>
-                                    <td><a href="#">Selecionar</a></td>
+                                    <td>Hugo Paulo</td>
+                                    <td>Gestor de Conta</td>
+                                    <td><a href="#">Editar</a></td>
                                 </tr>
                                 <tr>
-                                    <td> </td>
-                                    <td>003</td>
-                                    <td> Milagres Baptista</td>
-                                    <td><a href="#">Selecionar</a></td>
+                                    <td>Milagres Baptista</td>
+                                    <td>Gestor de Conta</td>
+                                    <td><a href="#">Editar</a></td>
                                 </tr>
                                 <tr>
-                                    <td> </td>
-                                    <td>004</td>
-                                    <td> Joydi Nunes </td>
-                                    <td><a href="#">Selecionar</a></td>               
+                                    <td>Joidy Nunes</td>
+                                    <td>Validador de Conta</td>
+                                    <td><a href="#">Editar</a></td>               
                                 </tr>
                                 <tr>
-                                    <td> </td>
-                                    <td>005</td>
-                                    <td> Fernando Raimundo</td> 
-                                    <td><a href="#">Selecionar</a></td>
+                                    <td>Fernando Raimundo</td>
+                                    <td>Gestor de Conta</td> 
+                                    <td><a href="#">Editar</a></td>
                                                   
                                 </tr>
                                 <tr>
-                                    <td> </td>
-                                    <td>006</td>
                                     <td>Jeremias Dembi</td>
-                                    <td><a href="#"> Selecionar</a></td>  
+                                    <td>Informático</td>
+                                    <td><a href="#"> Editar</a></td>  
                                                  
                                 </tr>
                             </tbody>
                         </table>
                     </div>
-                    <br><br><br><br><br><br><br>
-
-
-                </div >
+                    <br>
+                    </div >
                 </form>
                 
                 <!-- /.card-header -->
@@ -171,7 +154,75 @@
         <!--Termina o Listar Perfil-->
         <!-- /.col -->
     </div>
+    <div class="modal fade" id="modal-lg" style="display: none;" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <form action="" method="">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Atualizar Utilizador</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+                <div class="card">
+                
+                    <div class="card-header">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder=" Nome Completo" required>
+                    </div>
 
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Nome de Utilizador" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Senha" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Número de Conta Notalev">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Número de Identificação Pessoal" required>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <select class="form-control" disabled="">
+                                    <option>Selecionar perfil</option>
+                                    <option>option 2</option>
+                                    <option>option 3</option>
+                                    <option>option 4</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <br> 
+
+                </div>
+               
+                
+                <!-- /.card-header -->
+
+                <!-- /.card-body -->
+
+                <!-- /.card-footer-->
+            </div>
+
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+            <button type="button" class="btn btn-success">Salvar Alterações</button>
+          </div>
+        </div> 
+        </form>
+        <!-- /.modal-content -->
+      </div>
+      <!-- /.modal-dialog -->
+    </div>
 </div>
 <!--Fim Container-->
 @endsection

@@ -13,7 +13,7 @@
             <form action="" method="">
             <div class="card">
                 <div class="card-header">
-                    <h3 class="card-title">Adicional Valor a Conta</h3>
+                    <h3 class="card-title">Adicionar Valor a Conta</h3>
                     <br><br>
                     <div class="row">
                         <div class="col-md-6 form-group">
